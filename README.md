@@ -1,4 +1,22 @@
-# Hi, I'm Jasper John Adrada
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Space+Mono&size=24&pause=1000&color=58A6FF&center=true&vCenter=true&width=700&lines=Hi%2C+I'm+Jasper+John+Adrada;Computer+Science+Student;Full-Stack+Developer+in+Progress;Building+Backend+APIs+and+Practical+Tools" alt="Typing SVG" />
+</p>
+
+<p align="center">
+  <a href="https://github.com/kysokyhuh">
+    <img src="https://komarev.com/ghpvc/?username=kysokyhuh&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile views" />
+  </a>
+  <a href="https://www.linkedin.com/in/jasperadrada/">
+    <img src="https://img.shields.io/badge/LinkedIn-Jasper%20John%20Adrada-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="mailto:kysokyhuh@gmail.com">
+    <img src="https://img.shields.io/badge/Email-kysokyhuh%40gmail.com-D14836?style=flat&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+</p>
+
+---
+
+## About Me
 
 I'm a Computer Science student focused on building practical software systems, full-stack web applications, backend APIs, and developer tools.
 
@@ -18,26 +36,22 @@ I enjoy working on projects that solve real workflow problems, especially system
 ## Tech Stack
 
 ### Languages
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-007396?style=flat&logo=openjdk&logoColor=white)
-![C](https://img.shields.io/badge/C-A8B9CC?style=flat&logo=c&logoColor=black)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=cplusplus&logoColor=white)
 
-### Web & Backend
-![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat&logo=vite&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=flat&logo=express&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
+<p>
+  <img src="https://skillicons.dev/icons?i=ts,js,python,java,c,cpp" alt="Languages" />
+</p>
+
+### Frontend & Backend
+
+<p>
+  <img src="https://skillicons.dev/icons?i=react,vite,nodejs,express,fastapi,html,css" alt="Frontend and Backend" />
+</p>
 
 ### Database & Tools
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat&logo=sqlite&logoColor=white)
-![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat&logo=prisma&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
+
+<p>
+  <img src="https://skillicons.dev/icons?i=postgres,sqlite,prisma,git,github,githubactions,vscode" alt="Database and Tools" />
+</p>
 
 ---
 
@@ -46,9 +60,22 @@ I enjoy working on projects that solve real workflow problems, especially system
 | Project | Description | Tech |
 |---|---|---|
 | [Research Ethics Review Portal](https://github.com/kysokyhuh/rerc-review-portal) | Full-stack system for managing research ethics submissions, review workflows, user roles, and document generation. | TypeScript, React, Node.js, Express, PostgreSQL, Prisma |
-| [Reflexion](https://github.com/kysokyhuh/Reflexion) | FastAPI journaling app for daily reflections and weekly summaries, with optional AI-generated review support. | Python, FastAPI, SQLite |
+| [Reflexion](https://github.com/kysokyhuh/Reflexion) | FastAPI journaling app for daily reflections, weekly summaries, and optional AI-generated review support. | Python, FastAPI, SQLite |
 | [Little Red Riding Hood Simulation](https://github.com/kysokyhuh/little-red-riding-hood) | C-based console simulation where an intelligent agent navigates a hazardous grid, avoids threats, and reaches the goal. | C, Makefile |
 | [Arrows Express](https://github.com/kysokyhuh/ArrowsExpress) | C-based embarkation management system for managing shuttle trips, passenger information, and priority boarding. | C, Makefile |
+
+---
+
+## GitHub Activity
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=kysokyhuh&show_icons=true&theme=github_dark&hide_border=true" alt="Jasper's GitHub Stats" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kysokyhuh&layout=compact&theme=github_dark&hide_border=true" alt="Top Languages" height="165" />
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=kysokyhuh&theme=github-dark-blue&hide_border=true" alt="GitHub Streak" />
+</p>
 
 ---
 
@@ -59,12 +86,6 @@ I enjoy working on projects that solve real workflow problems, especially system
 - Improving README documentation and project presentation
 - Adding screenshots, demos, and clearer setup instructions to my repositories
 - Building more deployment-ready portfolio projects
-
----
-
-## GitHub Activity
-
-![Jasper's GitHub Stats](https://github-readme-stats.vercel.app/api?username=kysokyhuh&show_icons=true&hide_title=true&hide_border=true)
 
 ---
 
