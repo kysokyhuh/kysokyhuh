@@ -3,54 +3,36 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/kysokyhuh">
-    <img src="https://komarev.com/ghpvc/?username=kysokyhuh&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile views" />
-  </a>
   <a href="https://www.linkedin.com/in/jasperadrada/">
     <img src="https://img.shields.io/badge/LinkedIn-Jasper%20John%20Adrada-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   <a href="mailto:kysokyhuh@gmail.com">
     <img src="https://img.shields.io/badge/Email-kysokyhuh%40gmail.com-D14836?style=flat&logo=gmail&logoColor=white" alt="Email" />
   </a>
+  <img src="https://komarev.com/ghpvc/?username=kysokyhuh&label=Profile%20Views&color=58A6FF&style=flat" alt="Profile Views" />
 </p>
 
 ---
 
-## About Me
+## About
 
 I'm a Computer Science student focused on building practical software systems, full-stack web applications, backend APIs, and developer tools.
 
-I enjoy working on projects that solve real workflow problems, especially systems that involve clean backend logic, structured data, authentication, and usable interfaces.
+I enjoy working on projects that involve clean backend logic, structured data, authentication, and usable interfaces.
 
----
+Currently improving my skills in:
 
-## Focus Areas
-
-- Full-stack web development with **TypeScript, React, Node.js, Express, PostgreSQL, and Prisma**
+- Full-stack development with **TypeScript, React, Node.js, Express, PostgreSQL, and Prisma**
 - Backend API design, authentication, validation, and deployment workflows
 - Systems programming, data structures, and software architecture
-- Clear project documentation, setup guides, and maintainable codebases
+- Clear documentation, maintainable code, and deployment-ready projects
 
 ---
 
 ## Tech Stack
 
-### Languages
-
-<p>
-  <img src="https://skillicons.dev/icons?i=ts,js,python,java,c,cpp" alt="Languages" />
-</p>
-
-### Frontend & Backend
-
-<p>
-  <img src="https://skillicons.dev/icons?i=react,vite,nodejs,express,fastapi,html,css" alt="Frontend and Backend" />
-</p>
-
-### Database & Tools
-
-<p>
-  <img src="https://skillicons.dev/icons?i=postgres,sqlite,prisma,git,github,githubactions,vscode" alt="Database and Tools" />
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=ts,js,python,java,c,cpp,react,vite,nodejs,express,fastapi,postgres,sqlite,prisma,git,github,githubactions,vscode" alt="Tech Stack" />
 </p>
 
 ---
@@ -73,24 +55,12 @@ I enjoy working on projects that solve real workflow problems, especially system
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kysokyhuh&layout=compact&theme=github_dark&hide_border=true" alt="Top Languages" height="165" />
 </p>
 
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=kysokyhuh&theme=github-dark-blue&hide_border=true" alt="GitHub Streak" />
-</p>
-
----
-
-## Currently Improving
-
-- Writing cleaner and more maintainable code
-- Adding tests and CI/CD where appropriate
-- Improving README documentation and project presentation
-- Adding screenshots, demos, and clearer setup instructions to my repositories
-- Building more deployment-ready portfolio projects
-
 ---
 
 ## Contact
 
-- GitHub: [@kysokyhuh](https://github.com/kysokyhuh)
-- LinkedIn: [Jasper John Adrada](https://www.linkedin.com/in/jasperadrada/)
-- Email: [kysokyhuh@gmail.com](mailto:kysokyhuh@gmail.com)
+<p align="center">
+  <a href="https://github.com/kysokyhuh">GitHub</a> •
+  <a href="https://www.linkedin.com/in/jasperadrada/">LinkedIn</a> •
+  <a href="mailto:kysokyhuh@gmail.com">Email</a>
+</p>
