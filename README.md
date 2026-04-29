@@ -81,5 +81,5 @@ A C-based embarkation management system for managing shuttle trips, passenger in
 ## Contact
 
 - GitHub: [@kysokyhuh](https://github.com/kysokyhuh)
-- LinkedIn: Add your LinkedIn link here
-- Email: Add your professional email here
+- LinkedIn: [Jasper John Adrada](https://www.linkedin.com/in/jasperadrada/)
+- Email: kysokyhuh@gmail.com## Contact
