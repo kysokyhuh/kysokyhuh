@@ -1,7 +1,7 @@
 
 <h1>JASPER JOHN<br>ADRADA.</h1>
 
-`001 / SOFTWARE DEVELOPER`
+`SOFTWARE DEVELOPER / COMPUTER SCIENCE`
 
 Building things that make sense.
 
@@ -10,24 +10,34 @@ Building things that make sense.
 ### `01 / SELECTED WORK`
 
 **001 &nbsp; [RESEARCH ETHICS REVIEW PORTAL ↗](https://github.com/kysokyhuh/rerc-review-portal)**  
-<sub>TypeScript / Research review workflows</sub>
+<sub>TypeScript · Research review workflows</sub>
 
 **002 &nbsp; [LITTLE RED RIDING HOOD ↗](https://github.com/kysokyhuh/little-red-riding-hood)**  
-<sub>C / Agent simulation</sub>
+<sub>C · Agent simulation · Algorithms</sub>
 
 **003 &nbsp; [ARROWS EXPRESS ↗](https://github.com/kysokyhuh/ArrowsExpress)**  
-<sub>C / Console application</sub>
+<sub>C · Console application · System logic</sub>
 
 ---
+
 ### `02 / ACTIVITY`
 
-A year of building.
-
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/contributions-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/contributions-light.svg">
-  <img src="./assets/contributions-light.svg" alt="GitHub activity shown as a constellation-style star map" width="100%">
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="./assets/contributions-dark.svg"
+  >
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="./assets/contributions-light.svg"
+  >
+  <img
+    src="./assets/contributions-light.svg"
+    alt="Constellation / 365 — animated visualization of GitHub contribution activity"
+    width="100%"
+  >
 </picture>
+
 ---
 
 ### `03 / TOOLKIT`
