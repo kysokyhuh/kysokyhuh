@@ -9,8 +9,9 @@ Building things that make sense.
 
 ### `01 / SELECTED WORK`
 
+
 **001 &nbsp; [RESEARCH ETHICS REVIEW PORTAL ↗](https://github.com/kysokyhuh/rerc-review-portal)**  
-<sub>TypeScript · Research review workflows</sub>
+<sub>Full-Stack · Review Workflows · Database Systems</sub>
 
 **002 &nbsp; [LITTLE RED RIDING HOOD ↗](https://github.com/kysokyhuh/little-red-riding-hood)**  
 <sub>C · Agent simulation · Algorithms</sub>
