@@ -27,11 +27,10 @@ A year of building.
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/contributions-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/contributions-light.svg">
-  <img src="./assets/contributions-light.svg" alt="GitHub contributions over the past year, shown as a monochrome heatmap" width="100%">
+  <img src="./assets/contributions-light.svg" alt="GitHub activity shown as a constellation-style star map" width="100%">
 </picture>
 
-<sub>GitHub contribution activity, updated daily. Includes qualifying contributions, not every commit.</sub>
-
+<sub>CONSTELLATION / 365 · GitHub activity mapped in stars, updated daily.</sub>
 ---
 
 ### `03 / TOOLKIT`
