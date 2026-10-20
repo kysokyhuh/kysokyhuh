@@ -19,7 +19,6 @@ Building things that make sense.
 <sub>C / Console application</sub>
 
 ---
-
 ### `02 / ACTIVITY`
 
 A year of building.
@@ -29,8 +28,6 @@ A year of building.
   <source media="(prefers-color-scheme: light)" srcset="./assets/contributions-light.svg">
   <img src="./assets/contributions-light.svg" alt="GitHub activity shown as a constellation-style star map" width="100%">
 </picture>
-
-<sub>CONSTELLATION / 365 · GitHub activity mapped in stars, updated daily.</sub>
 ---
 
 ### `03 / TOOLKIT`
