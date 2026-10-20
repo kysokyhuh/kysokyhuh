@@ -1,9 +1,9 @@
+
 #!/usr/bin/env python3
-"""Generate a cleaner constellation-style GitHub activity graphic."""
+"""Generate a moving constellation from GitHub contributions."""
 
 from __future__ import annotations
 
-import hashlib
 import json
 import math
 from datetime import date, timedelta
@@ -11,341 +11,449 @@ from html import escape
 from pathlib import Path
 from urllib.request import Request, urlopen
 
-USER = "kysokyhuh"
+USERNAME = "kysokyhuh"
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / "assets"
-API = f"https://github-contributions-api.jogruber.de/v4/{USER}?y=last"
+API = f"https://github-contributions-api.jogruber.de/v4/{USERNAME}?y=last"
 
-THEMES = {
+# Animation duration in seconds.
+DURATION = 18
+
+PALETTES = {
     "light": {
-        "text": "#6B7280",
-        "subtitle": "#9CA3AF",
-        "faint": "#E5E7EB",
-        "line": "#D1D5DB",
-        "line_highlight": "#BFD7EA",
-        "glow": "#DCEAF5",
-        "levels": {
-            0: "#E5E7EB",
-            1: "#CFCFD6",
-            2: "#9AA4B2",
-            3: "#6B7280",
-            4: "#BFD7EA",
-        },
+        "text": "#626974",
+        "muted": "#87919D",
+        "empty": "#D1D5DB",
+        "low": "#AAB3BF",
+        "mid": "#6F7B89",
+        "high": "#333D49",
+        "route": "#8EA7BB",
+        "blue": "#5D91B3",
+        "halo": "#A9CEE5",
     },
     "dark": {
-        "text": "#D1D5DB",
-        "subtitle": "#9CA3AF",
-        "faint": "#2A2F36",
-        "line": "#4B5563",
-        "line_highlight": "#BFD7EA",
-        "glow": "#BFD7EA",
-        "levels": {
-            0: "#2A2F36",
-            1: "#59616D",
-            2: "#8A95A3",
-            3: "#D1D5DB",
-            4: "#BFD7EA",
-        },
+        "text": "#CED5DE",
+        "muted": "#929EAD",
+        "empty": "#57606D",
+        "low": "#7D8998",
+        "mid": "#A7B3C2",
+        "high": "#E4EAF2",
+        "route": "#7F99B0",
+        "blue": "#BFD7EA",
+        "halo": "#BFD7EA",
     },
 }
 
 
-def stable_noise(key: str, low: float, high: float) -> float:
-    digest = hashlib.sha256(key.encode("utf-8")).hexdigest()
-    value = int(digest[:8], 16) / 0xFFFFFFFF
-    return low + (high - low) * value
-
-
-def download() -> list[dict]:
+def fetch_days() -> list[dict]:
     request = Request(
         API,
-        headers={"User-Agent": "constellation-github-profile/2.0"},
+        headers={"User-Agent": "constellation-365/3.0"},
     )
 
     with urlopen(request, timeout=30) as response:
-        payload = json.load(response)
+        data = json.load(response)
 
-    days = payload.get("contributions")
+    days = data.get("contributions", [])
 
-    if not isinstance(days, list) or len(days) < 300:
-        raise ValueError("Contribution API did not return a complete year")
+    if len(days) < 300:
+        raise ValueError(
+            "Contribution API returned less than a year of data"
+        )
 
     return days
 
 
-def build_daily(days: list[dict]):
+def layout(days: list[dict]):
     daily = {}
 
     for item in days:
-        day = date.fromisoformat(item["date"])
-        count = max(0, int(item["count"]))
-        level = max(0, min(4, int(item["level"])))
-        daily[day] = {"count": count, "level": level}
+        current = date.fromisoformat(item["date"])
+        daily[current] = max(0, int(item["count"]))
 
-    first = min(daily)
-    last = max(daily)
-    start = first - timedelta(days=(first.weekday() + 1) % 7)
+    start_date = min(daily)
+    start = start_date - timedelta(
+        days=(start_date.weekday() + 1) % 7
+    )
 
-    return daily, start, first, last
+    end = max(daily)
+    weeks = ((end - start).days // 7) + 1
 
-
-def build_points(daily: dict, start: date, left: int, top: int, pitch_x: int, pitch_y: int):
     points = []
 
-    for day in sorted(daily):
-        entry = daily[day]
-        count = entry["count"]
-        level = entry["level"]
+    for current, count in sorted(daily.items()):
+        offset = (current - start).days
+        week, weekday = divmod(offset, 7)
 
-        number = (day - start).days
-        week = number // 7
-        row = number % 7
+        points.append({
+            "date": current,
+            "count": count,
+            "week": week,
+            "x": 38 + week * 13,
+            "y": 72 + weekday * 13,
+        })
 
-        base_x = left + week * pitch_x
-        base_y = top + row * pitch_y
+    return points, 38 + weeks * 13 + 20
 
-        if level == 0:
-            jitter = 0.25
-            radius = 0.8
-            opacity = 0.23
-        elif level == 1:
-            jitter = 0.60
-            radius = 1.50
-            opacity = 0.70
-        elif level == 2:
-            jitter = 0.75
-            radius = 2.10
-            opacity = 0.82
-        elif level == 3:
-            jitter = 0.90
-            radius = 2.80
-            opacity = 0.94
-        else:
-            jitter = 1.00
-            radius = 3.60
-            opacity = 1.00
 
-        x = base_x + stable_noise(f"{day.isoformat()}-x", -jitter, jitter)
-        y = base_y + stable_noise(f"{day.isoformat()}-y", -jitter, jitter)
+def choose_anchors(points: list[dict]) -> list[dict]:
+    """Choose real activity peaks across the year."""
 
-        points.append(
-            {
-                "day": day,
-                "count": count,
-                "level": level,
-                "week": week,
-                "row": row,
-                "x": x,
-                "y": y,
-                "r": radius,
-                "opacity": opacity,
-            }
+    active = [
+        p for p in points
+        if p["count"] > 0
+    ]
+
+    if not active:
+        return []
+
+    first_week = points[0]["week"]
+    last_week = points[-1]["week"]
+
+    span = max(
+        1,
+        last_week - first_week + 1,
+    )
+
+    bucket_count = 12
+    selected = []
+
+    for segment in range(bucket_count):
+        matches = [
+            p for p in active
+            if min(
+                bucket_count - 1,
+                (p["week"] - first_week)
+                * bucket_count // span,
+            ) == segment
+        ]
+
+        if matches:
+            selected.append(
+                max(
+                    matches,
+                    key=lambda p: (
+                        p["count"],
+                        -p["date"].toordinal(),
+                    ),
+                )
+            )
+
+    return sorted(
+        selected,
+        key=lambda p: p["date"],
+    )
+
+
+def route_path(anchors: list[dict]) -> str:
+    if not anchors:
+        return ""
+
+    x0 = anchors[0]["x"]
+    y0 = anchors[0]["y"]
+
+    return f"M {x0:.1f},{y0:.1f} " + " ".join(
+        f"L {p['x']:.1f},{p['y']:.1f}"
+        for p in anchors[1:]
+    )
+
+
+def fractional_arrival(
+    anchors: list[dict],
+) -> list[float]:
+
+    if len(anchors) < 2:
+        return [0.0] * len(anchors)
+
+    distances = [0.0]
+
+    for a, b in zip(anchors, anchors[1:]):
+        distance = math.hypot(
+            b["x"] - a["x"],
+            b["y"] - a["y"],
         )
 
-    return points
+        distances.append(
+            distances[-1] + distance
+        )
+
+    total = max(distances[-1], 1.0)
+
+    return [
+        distance / total
+        for distance in distances
+    ]
 
 
-def make_connections(points: list[dict]) -> list[tuple[int, int]]:
-    """Create sparse, meaningful connections only between stronger activity days."""
-    anchors = [(i, p) for i, p in enumerate(points) if p["level"] >= 2]
-    edges: set[tuple[int, int]] = set()
+def render(days: list[dict], mode: str) -> str:
+    palette = PALETTES[mode]
+    points, width = layout(days)
 
-    degrees = {i: 0 for i, _ in anchors}
+    active = [
+        p for p in points
+        if p["count"] > 0
+    ]
 
-    for idx, (i, point) in enumerate(anchors):
-        candidates = []
+    anchors = choose_anchors(points)
 
-        for j, other in anchors[idx + 1 :]:
-            day_diff = (other["day"] - point["day"]).days
-            if day_diff > 18:
-                break
+    max_count = max(
+        (p["count"] for p in active),
+        default=1,
+    )
 
-            week_diff = abs(other["week"] - point["week"])
-            row_diff = abs(other["row"] - point["row"])
+    # Highlight the six busiest contribution days.
+    highlighted = {
+        p["date"]
+        for p in sorted(
+            active,
+            key=lambda p: (
+                -p["count"],
+                p["date"],
+            ),
+        )[:6]
+    }
 
-            if week_diff <= 2 and row_diff <= 2:
-                distance = math.hypot(other["x"] - point["x"], other["y"] - point["y"])
-                score = distance + row_diff * 3 + week_diff * 2
-                candidates.append((score, j))
+    total = sum(
+        p["count"] for p in points
+    )
 
-        candidates.sort(key=lambda item: item[0])
+    height = 195
 
-        max_links = 2 if point["level"] == 4 else 1
-
-        for _, j in candidates:
-            if degrees[i] >= max_links:
-                break
-            if degrees[j] >= 2:
-                continue
-
-            edge = tuple(sorted((i, j)))
-            if edge in edges:
-                continue
-
-            edges.add(edge)
-            degrees[i] += 1
-            degrees[j] += 1
-
-    return sorted(edges)
-
-
-def render(days: list[dict], theme: str) -> str:
-    colors = THEMES[theme]
-    daily, start, first, last = build_daily(days)
-
-    pitch_x = 13
-    pitch_y = 13
-    left = 44
-    top = 74
-
-    weeks = ((last - start).days // 7) + 1
-    width = left + weeks * pitch_x + 18
-    height = 185
-
-    total_contributions = sum(item["count"] for item in daily.values())
-
-    points = build_points(daily, start, left, top, pitch_x, pitch_y)
-    edges = make_connections(points)
-
-    pieces = [
+    parts = [
         (
             f'<svg xmlns="http://www.w3.org/2000/svg" '
             f'viewBox="0 0 {width} {height}" '
             f'width="{width}" height="{height}" '
-            f'role="img" aria-label="Constellation view of GitHub activity">'
+            f'role="img" '
+            f'aria-label="Animated GitHub contribution constellation">'
         ),
-        f'<title>{total_contributions} GitHub contributions during the past year</title>',
+        (
+            f'<title>{total} GitHub contributions '
+            f'mapped into a moving constellation</title>'
+        ),
+        (
+            f'<text x="38" y="20" '
+            f'fill="{palette["text"]}" '
+            f'font-family="Arial,sans-serif" '
+            f'font-size="12" font-weight="700">'
+            f'CONSTELLATION / 365</text>'
+        ),
+        (
+            f'<text x="38" y="37" '
+            f'fill="{palette["muted"]}" '
+            f'font-family="Arial,sans-serif" '
+            f'font-size="10">'
+            f'A year of building, in motion.</text>'
+        ),
     ]
 
-    # Header
-    pieces.append(
-        f'<text x="{left}" y="20" fill="{colors["text"]}" '
-        f'font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700">'
-        f'CONSTELLATION / 365</text>'
-    )
-    pieces.append(
-        f'<text x="{left}" y="34" fill="{colors["subtitle"]}" '
-        f'font-family="Arial, Helvetica, sans-serif" font-size="10">'
-        f'Active days become stars.</text>'
-    )
+    # Month labels.
+    month_seen = set()
 
-    # Month labels
-    months_seen = set()
-    for day in sorted(daily):
-        label = (day.year, day.month)
-        if label not in months_seen:
-            months_seen.add(label)
-            column = (day - start).days // 7
-            x = left + column * pitch_x
-            if x >= left + 10:
-                pieces.append(
-                    f'<text x="{x}" y="56" fill="{colors["text"]}" '
-                    f'font-family="Arial, Helvetica, sans-serif" font-size="9">'
-                    f'{escape(day.strftime("%b"))}</text>'
-                )
-
-    # Draw faint background stars first
-    for point in points:
-        if point["level"] != 0:
-            continue
-
-        pieces.append(
-            f'<circle cx="{point["x"]:.2f}" cy="{point["y"]:.2f}" '
-            f'r="{point["r"]:.2f}" fill="{colors["faint"]}" opacity="{point["opacity"]:.2f}" />'
+    for p in points:
+        marker = (
+            p["date"].year,
+            p["date"].month,
         )
 
-    # Draw sparse constellation lines
-    for index, (i, j) in enumerate(edges):
-        a = points[i]
-        b = points[j]
-
-        highlight = a["level"] == 4 or b["level"] == 4
-        stroke = colors["line_highlight"] if highlight else colors["line"]
-        opacity = "0.54" if highlight else "0.28"
-
-        pieces.append(
-            f'<line x1="{a["x"]:.2f}" y1="{a["y"]:.2f}" '
-            f'x2="{b["x"]:.2f}" y2="{b["y"]:.2f}" '
-            f'stroke="{stroke}" stroke-width="1" stroke-linecap="round" opacity="{opacity}" />'
-        )
-
-    # Draw active stars
-    for point in points:
-        if point["level"] == 0:
+        if marker in month_seen:
             continue
 
-        color = colors["levels"][point["level"]]
+        month_seen.add(marker)
 
-        # Peak days get a soft glow and subtle pulse
-        if point["level"] == 4:
-            begin = stable_noise(f"peak-{point['day'].isoformat()}", 0.0, 4.0)
-
-            pieces.append(
-                f'<circle cx="{point["x"]:.2f}" cy="{point["y"]:.2f}" '
-                f'r="{point["r"] + 2.6:.2f}" fill="{colors["glow"]}" opacity="0.12">'
-                f'<animate attributeName="opacity" values="0.08;0.22;0.08" '
-                f'dur="6s" begin="{begin:.2f}s" repeatCount="indefinite" />'
-                f'</circle>'
+        if p["x"] >= 65:
+            month = escape(
+                p["date"].strftime("%b")
             )
 
-            pieces.append(
-                f'<circle cx="{point["x"]:.2f}" cy="{point["y"]:.2f}" '
-                f'r="{point["r"]:.2f}" fill="{color}" opacity="1">'
-                f'<title>{point["day"].isoformat()}: {point["count"]} contributions</title>'
-                f'<animate attributeName="opacity" values="0.86;1;0.86" '
-                f'dur="4.5s" begin="{begin:.2f}s" repeatCount="indefinite" />'
-                f'</circle>'
+            parts.append(
+                f'<text x="{p["x"]}" y="59" '
+                f'fill="{palette["muted"]}" '
+                f'font-family="Arial,sans-serif" '
+                f'font-size="9">{month}</text>'
             )
+
+    # Draw the contribution stars.
+    for p in points:
+        x = p["x"]
+        y = p["y"]
+        count = p["count"]
+
+        if count == 0:
+            parts.append(
+                f'<circle cx="{x}" cy="{y}" '
+                f'r="0.65" '
+                f'fill="{palette["empty"]}" '
+                f'opacity="0.22"/>'
+            )
+            continue
+
+        strength = count / max_count
+
+        radius = 1.4 + 1.9 * math.sqrt(strength)
+
+        if strength > 0.5:
+            color = palette["high"]
+        elif strength > 0.2:
+            color = palette["mid"]
         else:
-            pieces.append(
-                f'<circle cx="{point["x"]:.2f}" cy="{point["y"]:.2f}" '
-                f'r="{point["r"]:.2f}" fill="{color}" opacity="{point["opacity"]:.2f}">'
-                f'<title>{point["day"].isoformat()}: {point["count"]} contributions</title>'
+            color = palette["low"]
+
+        if p["date"] in highlighted:
+            color = palette["blue"]
+            radius = 3.5
+
+        parts.append(
+            f'<circle cx="{x}" cy="{y}" '
+            f'r="{radius:.2f}" fill="{color}">'
+            f'<title>{p["date"].isoformat()}: '
+            f'{count} contributions</title>'
+            f'</circle>'
+        )
+
+    # Animate a Glacier Blue signal along real activity peaks.
+    if len(anchors) >= 2:
+        motion = route_path(anchors)
+
+        # Faint permanent connection path.
+        parts.append(
+            f'<path d="{motion}" fill="none" '
+            f'stroke="{palette["route"]}" '
+            f'stroke-width="0.9" '
+            f'opacity="0.32" '
+            f'stroke-linejoin="round"/>'
+        )
+
+        # Short illuminated trail traveling along the path.
+        parts.append(
+            f'<path d="{motion}" fill="none" '
+            f'pathLength="100" '
+            f'stroke="{palette["blue"]}" '
+            f'stroke-width="2.1" '
+            f'stroke-linecap="round" '
+            f'stroke-dasharray="5 95" opacity="0.9">'
+            f'<animate '
+            f'attributeName="stroke-dashoffset" '
+            f'from="0" to="-100" '
+            f'dur="{DURATION}s" '
+            f'repeatCount="indefinite"/>'
+            f'</path>'
+        )
+
+        # The moving signal and its soft halo.
+        for radius, opacity in (
+            (7, 0.15),
+            (3.3, 1.0),
+        ):
+            if radius == 7:
+                fill = palette["halo"]
+            else:
+                fill = palette["blue"]
+
+            parts.append(
+                f'<circle r="{radius}" '
+                f'fill="{fill}" opacity="{opacity}">'
+                f'<animateMotion '
+                f'path="{motion}" '
+                f'dur="{DURATION}s" '
+                f'calcMode="paced" '
+                f'repeatCount="indefinite"/>'
                 f'</circle>'
             )
 
-    # Footer
-    footer_y = height - 12
-    pieces.append(
-        f'<text x="{left}" y="{footer_y}" fill="{colors["text"]}" '
-        f'font-family="Arial, Helvetica, sans-serif" font-size="10">'
-        f'{total_contributions} contributions / last year</text>'
-    )
+        # Light up selected stars as the signal arrives.
+        arrivals = fractional_arrival(anchors)
 
-    legend_x = width - 126
-    pieces.append(
-        f'<text x="{legend_x}" y="{footer_y}" fill="{colors["text"]}" '
-        f'font-family="Arial, Helvetica, sans-serif" font-size="10">Quiet</text>'
-    )
+        for point, frac in zip(anchors, arrivals):
+            if frac >= 0.98:
+                frac = 0.97
 
-    legend_levels = [1, 2, 3, 4]
-    for idx, level in enumerate(legend_levels):
-        cx = legend_x + 33 + idx * 16
-        cy = footer_y - 4
-        r = 1.4 + idx * 0.45
-        pieces.append(
-            f'<circle cx="{cx}" cy="{cy}" r="{r:.2f}" fill="{colors["levels"][level]}" />'
-        )
+            before = max(
+                0.0,
+                frac - 0.012,
+            )
 
-    pieces.append(
-        f'<text x="{legend_x + 100}" y="{footer_y}" fill="{colors["text"]}" '
-        f'font-family="Arial, Helvetica, sans-serif" font-size="10">Active</text>'
-    )
+            peak = min(
+                0.98,
+                max(before + 0.002, frac),
+            )
 
-    pieces.append("</svg>")
+            after = min(
+                0.995,
+                peak + 0.025,
+            )
 
-    return "\n".join(pieces) + "\n"
+            if before == 0.0:
+                key_times = (
+                    f"0;{peak:.4f};"
+                    f"{after:.4f};1"
+                )
+                values = "0.8;0.85;0;0"
+            else:
+                key_times = (
+                    f"0;{before:.4f};"
+                    f"{peak:.4f};"
+                    f"{after:.4f};1"
+                )
+                values = "0;0;0.85;0;0"
+
+            parts.append(
+                f'<circle '
+                f'cx="{point["x"]}" '
+                f'cy="{point["y"]}" '
+                f'r="7" '
+                f'fill="{palette["halo"]}" '
+                f'opacity="0">'
+                f'<animate '
+                f'attributeName="opacity" '
+                f'values="{values}" '
+                f'keyTimes="{key_times}" '
+                f'dur="{DURATION}s" '
+                f'repeatCount="indefinite"/>'
+                f'</circle>'
+            )
+
+    # Footer.
+    parts.extend([
+        (
+            f'<text x="38" y="179" '
+            f'fill="{palette["text"]}" '
+            f'font-family="Arial,sans-serif" '
+            f'font-size="10">'
+            f'{total} contributions / last year</text>'
+        ),
+        (
+            f'<text x="{width - 175}" y="179" '
+            f'fill="{palette["muted"]}" '
+            f'font-family="Arial,sans-serif" '
+            f'font-size="10">'
+            f'GLACIER BLUE / LIVE SIGNAL</text>'
+        ),
+        '</svg>',
+    ])
+
+    return "\n".join(parts) + "\n"
 
 
 def main() -> None:
-    days = download()
+    days = fetch_days()
 
-    OUTPUT.mkdir(parents=True, exist_ok=True)
+    OUTPUT.mkdir(
+        parents=True,
+        exist_ok=True,
+    )
 
-    for theme in THEMES:
-        file = OUTPUT / f"contributions-{theme}.svg"
-        file.write_text(render(days, theme), encoding="utf-8")
-        print(f"Updated {file}")
+    for mode in PALETTES:
+        output_file = (
+            OUTPUT / f"contributions-{mode}.svg"
+        )
+
+        output_file.write_text(
+            render(days, mode),
+            encoding="utf-8",
+        )
+
+        print("Updated", output_file)
 
 
 if __name__ == "__main__":
