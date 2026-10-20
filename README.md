@@ -1,132 +1,131 @@
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,100:58A6FF&height=180&section=header&text=Jasper%20John%20Adrada&fontSize=38&fontColor=FFFFFF&animation=fadeIn&fontAlignY=35&desc=Computer%20Science%20Student%20%7C%20Full-Stack%20Development%20%7C%20Backend%20APIs&descAlignY=58&descSize=15" />
-</p>
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Space+Mono&size=20&pause=1000&color=58A6FF&center=true&vCenter=true&width=700&lines=Building+practical+software+systems;Designing+backend+APIs+and+full-stack+workflows;Learning+by+building+real+projects;Improving+code%2C+documentation%2C+and+deployment" alt="Typing SVG" />
-</p>
+<!--
+  JASPER JOHN ADRADA
+  Minimal GitHub Profile
+  Black / White / Monochrome
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/jasperadrada/">
-    <img src="https://img.shields.io/badge/LinkedIn-Jasper%20John%20Adrada-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="mailto:kysokyhuh@gmail.com">
-    <img src="https://img.shields.io/badge/Email-kysokyhuh%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-  </a>
-  <img src="https://komarev.com/ghpvc/?username=kysokyhuh&label=Profile%20Views&color=58A6FF&style=for-the-badge" alt="Profile Views" />
-</p>
+  Required image:
+  assets/avatar.png
+-->
 
----
+<div align="center">
 
-## About Me
+<img src="./assets/avatar.png" alt="Jasper Adrada" width="170" />
 
-I'm a Computer Science student focused on building **practical software systems**, **full-stack web applications**, **backend APIs**, and **developer tools**.
+# Jasper John Adrada
 
-I enjoy working on projects that involve:
+`COMPUTER SCIENCE` · `SOFTWARE DEVELOPMENT`
 
-- clean backend logic
-- structured data and databases
-- authentication and role-based workflows
-- usable interfaces
-- clear documentation and setup guides
+Building things, breaking things, and learning how to make them better.
 
-My current direction is to become stronger at building software that is not just functional, but also understandable, maintainable, and useful in real workflows.
+[GitHub](https://github.com/kysokyhuh) &nbsp; / &nbsp;
+[LinkedIn](https://www.linkedin.com/in/jasperadrada/) &nbsp; / &nbsp;
+[Email](mailto:kysokyhuh@gmail.com)
+
+</div>
+
+<br>
 
 ---
 
-## What I Build
+### `01 / ABOUT`
 
-<table>
-  <tr>
-    <td><b>Full-Stack Systems</b></td>
-    <td>Web applications with frontend, backend, database, authentication, and deployment workflows.</td>
-  </tr>
-  <tr>
-    <td><b>Backend APIs</b></td>
-    <td>Express and FastAPI services with structured routes, validation, and database integration.</td>
-  </tr>
-  <tr>
-    <td><b>Systems Projects</b></td>
-    <td>C/C++ projects that strengthen my foundation in logic, memory, algorithms, and low-level programming.</td>
-  </tr>
-  <tr>
-    <td><b>Developer-Focused Tools</b></td>
-    <td>Small tools and workflow-based projects that make repetitive tasks easier to manage.</td>
-  </tr>
-</table>
+I'm a Computer Science student interested in building software that solves practical problems.
+
+My work explores **full-stack applications, backend development, and intelligent systems**, with an emphasis on clean architecture and thoughtful user experiences.
+
+I'm especially interested in understanding how things work beneath the surface — from application logic and databases to the decisions that make software reliable and maintainable.
+
+Currently focused on becoming a better software engineer, one project at a time.
+
+<br>
+
+### `02 / SELECTED WORK`
+
+A selection of projects I've worked on, each exploring different aspects of software development.
+
+<br>
+
+**01 — [Research Ethics Review Portal](https://github.com/kysokyhuh/rerc-review-portal)**
+
+A full-stack application designed to support institutional research ethics review workflows.
+
+`FULL-STACK` · `DATABASES` · `ROLE-BASED ACCESS`
+
+<br>
+
+**02 — [Reflexion](https://github.com/kysokyhuh/Reflexion)**
+
+An exploration of AI-assisted productivity, backend services, and structured application workflows.
+
+`PYTHON` · `FASTAPI` · `AI`
+
+<br>
+
+**03 — [Little Red Riding Hood](https://github.com/kysokyhuh/little-red-riding-hood)**
+
+A simulation exploring agent behavior, decision-making, and grid-based navigation.
+
+`C` · `ALGORITHMS` · `SIMULATION`
+
+<br>
+
+**04 — [Arrows Express](https://github.com/kysokyhuh/ArrowsExpress)**
+
+A console-based system exploring structured logic, input validation, and priority-based processing.
+
+`C` · `SYSTEM DESIGN` · `LOGIC`
+
+<br>
+
+### `03 / TOOLKIT`
+
+Technologies I've worked with throughout my projects and learning.
+
+| | Technologies |
+| :--- | :--- |
+| **Languages** | Python, TypeScript, JavaScript, Java, C, C++ |
+| **Frontend** | React, Vite |
+| **Backend** | Node.js, Express, FastAPI |
+| **Databases** | PostgreSQL, SQLite, Prisma |
+| **Tools** | Git, GitHub, GitHub Actions, VS Code |
+
+<br>
+
+### `04 / CURRENTLY`
+
+Things I'm actively working on:
+
+- Building more complete and maintainable applications.
+- Strengthening my understanding of backend architecture and APIs.
+- Writing better documentation and project setup guides.
+- Exploring AI and its practical applications in software.
+- Learning through experimentation and real projects.
+
+<br>
+
+### `05 / PHILOSOPHY`
+
+> Understand the problem. Build something useful. Keep improving.
+
+I believe good software isn't just about making something work. It's about understanding why it works, recognizing where it might fail, and continuously improving the way it's built.
+
+<br>
 
 ---
 
-## Tech Stack
+<div align="center">
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=ts,js,python,java,c,cpp,react,vite,nodejs,express,fastapi,postgres,sqlite,prisma,git,github,githubactions,vscode&perline=9" alt="Tech Stack" />
-</p>
+<sub>ALWAYS LEARNING · ALWAYS BUILDING</sub>
 
----
+<br><br>
 
-## Featured Projects
+[GitHub](https://github.com/kysokyhuh) &nbsp;·&nbsp;
+[LinkedIn](https://www.linkedin.com/in/jasperadrada/) &nbsp;·&nbsp;
+[Email](mailto:kysokyhuh@gmail.com)
 
-<p align="center">
-  <a href="https://github.com/kysokyhuh/rerc-review-portal">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=kysokyhuh&repo=rerc-review-portal&theme=github_dark&hide_border=true" />
-  </a>
-  <a href="https://github.com/kysokyhuh/Reflexion">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=kysokyhuh&repo=Reflexion&theme=github_dark&hide_border=true" />
-  </a>
-</p>
+<br><br>
 
-<p align="center">
-  <a href="https://github.com/kysokyhuh/little-red-riding-hood">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=kysokyhuh&repo=little-red-riding-hood&theme=github_dark&hide_border=true" />
-  </a>
-  <a href="https://github.com/kysokyhuh/ArrowsExpress">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=kysokyhuh&repo=ArrowsExpress&theme=github_dark&hide_border=true" />
-  </a>
-</p>
+<sub>© Jasper John Adrada</sub>
 
-### Project Focus
-
-| Project | What it shows |
-|---|---|
-| **Research Ethics Review Portal** | Full-stack development, role-based workflows, database design, real institutional use case |
-| **Reflexion** | Python backend development, FastAPI, AI-assisted productivity workflow |
-| **Little Red Riding Hood Simulation** | C programming, agent logic, rule-based decision-making, grid navigation |
-| **Arrows Express** | C programming, console system design, input validation, priority-based logic |
-
----
-
-## GitHub Activity
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=kysokyhuh&show_icons=true&theme=github_dark&hide_border=true&rank_icon=github" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kysokyhuh&layout=compact&theme=github_dark&hide_border=true" height="165" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=kysokyhuh&theme=github-compact&hide_border=true&area=true" alt="GitHub Activity Graph" />
-</p>
-
----
-
-## Currently Improving
-
-- Writing cleaner and more maintainable code
-- Adding better README documentation to my projects
-- Improving backend API structure and validation
-- Adding screenshots, demos, and clearer setup instructions
-- Building more deployment-ready full-stack applications
-
----
-
-## Contact
-
-<p align="center">
-  <a href="https://github.com/kysokyhuh">GitHub</a> •
-  <a href="https://www.linkedin.com/in/jasperadrada/">LinkedIn</a> •
-  <a href="mailto:kysokyhuh@gmail.com">Email</a>
-</p>
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:58A6FF,100:0D1117&height=100&section=footer" />
-</p>
+</div>
