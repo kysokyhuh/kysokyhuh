@@ -1,109 +1,72 @@
 
-<div align="center">
+<h1>JASPER JOHN<br>ADRADA.</h1>
 
-# JASPER JOHN ADRADA
+`001 / SOFTWARE DEVELOPER`
 
-`COMPUTER SCIENCE` / `SOFTWARE DEVELOPMENT`
-
-Building practical software. Learning through experimentation.
-
-[GitHub](https://github.com/kysokyhuh) · [LinkedIn](https://www.linkedin.com/in/jasperadrada/) · [Email](mailto:kysokyhuh@gmail.com)
-
-</div>
-
-<br>
+Building things that make sense.
 
 ---
 
-### `01 / ABOUT`
+### `01 / SELECTED WORK`
 
-I'm a Computer Science student interested in **software engineering, backend development, and intelligent systems**.
+**001 &nbsp; [RESEARCH ETHICS REVIEW PORTAL ↗](https://github.com/kysokyhuh/rerc-review-portal)**  
+<sub>TypeScript / Research review workflows</sub>
 
-I enjoy understanding how things work, breaking down complex problems, and turning ideas into functional applications.
+**002 &nbsp; [LITTLE RED RIDING HOOD ↗](https://github.com/kysokyhuh/little-red-riding-hood)**  
+<sub>C / Agent simulation</sub>
 
-My focus is on building software that is not only functional, but also **maintainable, reliable, and thoughtfully designed**.
-
-<br>
-
-### `02 / SELECTED WORK`
-
-Projects exploring different aspects of software development.
-
-**01 — [Research Ethics Review Portal ↗](https://github.com/kysokyhuh/rerc-review-portal)**
-
-A full-stack application designed to support institutional research ethics review workflows.
-
-`Full-Stack` `Database Design` `Role-Based Access`
+**003 &nbsp; [ARROWS EXPRESS ↗](https://github.com/kysokyhuh/ArrowsExpress)**  
+<sub>C / Console application</sub>
 
 ---
 
-**02 — [Reflexion ↗](https://github.com/kysokyhuh/Reflexion)**
+### `02 / ACTIVITY`
 
-An exploration of AI-assisted productivity, backend services, and structured application workflows.
+A year of building.
 
-`Python` `FastAPI` `AI`
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/contributions-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/contributions-light.svg">
+  <img src="./assets/contributions-light.svg" alt="GitHub contributions over the past year, shown as a monochrome heatmap" width="100%">
+</picture>
 
----
-
-**03 — [Little Red Riding Hood ↗](https://github.com/kysokyhuh/little-red-riding-hood)**
-
-A simulation exploring autonomous agent behavior, decision-making, and grid-based navigation.
-
-`C` `Algorithms` `Simulation`
+<sub>GitHub contribution activity, updated daily. Includes qualifying contributions, not every commit.</sub>
 
 ---
 
-**04 — [Arrows Express ↗](https://github.com/kysokyhuh/ArrowsExpress)**
+### `03 / TOOLKIT`
 
-A console-based system exploring input validation, structured logic, and priority-based processing.
+<sub>LANGUAGES</sub>
 
-`C` `System Design` `Logic`
+<p>
+  <img src="https://cdn.simpleicons.org/python/18181B/E5E7EB" alt="Python" title="Python" width="28" height="28" />&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/typescript/18181B/E5E7EB" alt="TypeScript" title="TypeScript" width="28" height="28" />&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/javascript/18181B/E5E7EB" alt="JavaScript" title="JavaScript" width="28" height="28" />&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/c/18181B/E5E7EB" alt="C" title="C" width="28" height="28" />
+</p>
 
-<br>
+<sub>FRAMEWORKS & RUNTIME</sub>
 
-### `03 / TECHNICAL TOOLKIT`
+<p>
+  <img src="https://cdn.simpleicons.org/react/18181B/E5E7EB" alt="React" title="React" width="28" height="28" />&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/fastapi/18181B/E5E7EB" alt="FastAPI" title="FastAPI" width="28" height="28" />&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/nodedotjs/18181B/E5E7EB" alt="Node.js" title="Node.js" width="28" height="28" />&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/express/18181B/E5E7EB" alt="Express" title="Express" width="28" height="28" />
+</p>
 
-A collection of technologies I've worked with.
+<sub>DATABASES & TOOLS</sub>
 
-| Area | Technologies |
-| :--- | :--- |
-| **Languages** | Python, TypeScript, JavaScript, Java, C, C++ |
-| **Frontend** | React, Vite |
-| **Backend** | Node.js, Express, FastAPI |
-| **Databases** | PostgreSQL, SQLite, Prisma |
-| **Development** | Git, GitHub, GitHub Actions, VS Code |
-
-<br>
-
-### `04 / CURRENTLY EXPLORING`
-
-- Software architecture and maintainable code.
-- Backend APIs and database-driven applications.
-- Artificial intelligence and practical ML applications.
-- Full-stack development and deployment workflows.
-
-<br>
-
-### `05 / APPROACH`
-
-> Understand the problem. Build something useful. Keep improving.
-
-I approach software development with curiosity and a willingness to experiment.
-
-For me, building software means more than writing code. It means understanding the systems behind it, questioning assumptions, and finding better ways to solve problems.
-
-<br>
+<p>
+  <img src="https://cdn.simpleicons.org/postgresql/18181B/E5E7EB" alt="PostgreSQL" title="PostgreSQL" width="28" height="28" />&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/sqlite/18181B/E5E7EB" alt="SQLite" title="SQLite" width="28" height="28" />&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/git/18181B/E5E7EB" alt="Git" title="Git" width="28" height="28" />&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/github/18181B/E5E7EB" alt="GitHub" title="GitHub" width="28" height="28" />
+</p>
 
 ---
 
-<div align="center">
+### `04 / CONNECT`
 
-<sub>DESIGNED TO LEARN. BUILT TO IMPROVE.</sub>
+[GitHub ↗](https://github.com/kysokyhuh) &nbsp; / &nbsp; [LinkedIn ↗](https://www.linkedin.com/in/jasperadrada/) &nbsp; / &nbsp; [Email ↗](mailto:kysokyhuh@gmail.com)
 
-<br><br>
-
-[GitHub](https://github.com/kysokyhuh) &nbsp; / &nbsp;
-[LinkedIn](https://www.linkedin.com/in/jasperadrada/) &nbsp; / &nbsp;
-[Email](mailto:kysokyhuh@gmail.com)
-
-</div>
+<sub>© Jasper Adrada · 2026</sub>
