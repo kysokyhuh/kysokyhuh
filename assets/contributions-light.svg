@@ -1,447 +1,415 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 749 185" width="749" height="185" role="img" aria-label="Constellation view of GitHub activity">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 751 185" width="751" height="185" role="img" aria-label="Constellation view of GitHub activity">
 <title>251 GitHub contributions during the past year</title>
-<text x="42" y="18" fill="#6B7280" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700">CONSTELLATION / 365</text>
-<text x="42" y="32" fill="#9CA3AF" font-family="Arial, Helvetica, sans-serif" font-size="10">A year of building, mapped in stars.</text>
-<text x="55" y="52" fill="#6B7280" font-family="Arial, Helvetica, sans-serif" font-size="9">Nov</text>
-<text x="120" y="52" fill="#6B7280" font-family="Arial, Helvetica, sans-serif" font-size="9">Dec</text>
-<text x="172" y="52" fill="#6B7280" font-family="Arial, Helvetica, sans-serif" font-size="9">Jan</text>
-<text x="237" y="52" fill="#6B7280" font-family="Arial, Helvetica, sans-serif" font-size="9">Feb</text>
-<text x="289" y="52" fill="#6B7280" font-family="Arial, Helvetica, sans-serif" font-size="9">Mar</text>
-<text x="341" y="52" fill="#6B7280" font-family="Arial, Helvetica, sans-serif" font-size="9">Apr</text>
-<text x="393" y="52" fill="#6B7280" font-family="Arial, Helvetica, sans-serif" font-size="9">May</text>
-<text x="458" y="52" fill="#6B7280" font-family="Arial, Helvetica, sans-serif" font-size="9">Jun</text>
-<text x="510" y="52" fill="#6B7280" font-family="Arial, Helvetica, sans-serif" font-size="9">Jul</text>
-<text x="562" y="52" fill="#6B7280" font-family="Arial, Helvetica, sans-serif" font-size="9">Aug</text>
-<text x="627" y="52" fill="#6B7280" font-family="Arial, Helvetica, sans-serif" font-size="9">Sep</text>
-<text x="679" y="52" fill="#6B7280" font-family="Arial, Helvetica, sans-serif" font-size="9">Oct</text>
-<line x1="53.53" y1="125.50" x2="68.97" y2="128.03" stroke="#D1D5DB" stroke-width="0.9" stroke-linecap="round" opacity="0.18"><animate attributeName="opacity" values="0.18;0.34;0.18" dur="8s" begin="3.58s" repeatCount="indefinite" /></line>
-<line x1="66.85" y1="89.02" x2="67.71" y2="99.28" stroke="#D1D5DB" stroke-width="0.9" stroke-linecap="round" opacity="0.18"><animate attributeName="opacity" values="0.18;0.34;0.18" dur="8s" begin="0.13s" repeatCount="indefinite" /></line>
-<line x1="67.71" y1="99.28" x2="68.97" y2="128.03" stroke="#D1D5DB" stroke-width="0.9" stroke-linecap="round" opacity="0.18"><animate attributeName="opacity" values="0.18;0.34;0.18" dur="8s" begin="3.31s" repeatCount="indefinite" /></line>
-<line x1="131.32" y1="73.25" x2="133.15" y2="87.26" stroke="#D1D5DB" stroke-width="0.9" stroke-linecap="round" opacity="0.18"><animate attributeName="opacity" values="0.18;0.34;0.18" dur="8s" begin="2.79s" repeatCount="indefinite" /></line>
-<line x1="133.15" y1="87.26" x2="146.63" y2="87.11" stroke="#D1D5DB" stroke-width="0.9" stroke-linecap="round" opacity="0.18"><animate attributeName="opacity" values="0.18;0.34;0.18" dur="8s" begin="2.52s" repeatCount="indefinite" /></line>
-<line x1="147.13" y1="61.42" x2="146.63" y2="87.11" stroke="#BFD7EA" stroke-width="0.9" stroke-linecap="round" opacity="0.32"><animate attributeName="opacity" values="0.32;0.56;0.32" dur="8s" begin="0.25s" repeatCount="indefinite" /></line>
-<line x1="146.63" y1="87.11" x2="170.94" y2="74.11" stroke="#D1D5DB" stroke-width="0.9" stroke-linecap="round" opacity="0.18"><animate attributeName="opacity" values="0.18;0.34;0.18" dur="8s" begin="0.32s" repeatCount="indefinite" /></line>
-<line x1="170.94" y1="74.11" x2="196.35" y2="113.21" stroke="#D1D5DB" stroke-width="0.9" stroke-linecap="round" opacity="0.18"><animate attributeName="opacity" values="0.18;0.34;0.18" dur="8s" begin="0.82s" repeatCount="indefinite" /></line>
-<line x1="196.35" y1="113.21" x2="211.18" y2="101.55" stroke="#D1D5DB" stroke-width="0.9" stroke-linecap="round" opacity="0.18"><animate attributeName="opacity" values="0.18;0.34;0.18" dur="8s" begin="3.25s" repeatCount="indefinite" /></line>
-<line x1="250.94" y1="89.42" x2="250.18" y2="114.85" stroke="#D1D5DB" stroke-width="0.9" stroke-linecap="round" opacity="0.18"><animate attributeName="opacity" values="0.18;0.34;0.18" dur="8s" begin="1.60s" repeatCount="indefinite" /></line>
-<line x1="250.94" y1="89.42" x2="263.11" y2="76.74" stroke="#D1D5DB" stroke-width="0.9" stroke-linecap="round" opacity="0.18"><animate attributeName="opacity" values="0.18;0.34;0.18" dur="8s" begin="1.66s" repeatCount="indefinite" /></line>
-<line x1="250.18" y1="114.85" x2="248.89" y2="126.22" stroke="#D1D5DB" stroke-width="0.9" stroke-linecap="round" opacity="0.18"><animate attributeName="opacity" values="0.18;0.34;0.18" dur="8s" begin="2.86s" repeatCount="indefinite" /></line>
-<line x1="262.36" y1="63.40" x2="263.11" y2="76.74" stroke="#D1D5DB" stroke-width="0.9" stroke-linecap="round" opacity="0.18"><animate attributeName="opacity" values="0.18;0.34;0.18" dur="8s" begin="2.92s" repeatCount="indefinite" /></line>
-<line x1="263.11" y1="76.74" x2="289.58" y2="76.27" stroke="#BFD7EA" stroke-width="0.9" stroke-linecap="round" opacity="0.32"><animate attributeName="opacity" values="0.32;0.56;0.32" dur="8s" begin="2.27s" repeatCount="indefinite" /></line>
-<line x1="327.42" y1="75.46" x2="339.45" y2="76.38" stroke="#BFD7EA" stroke-width="0.9" stroke-linecap="round" opacity="0.32"><animate attributeName="opacity" values="0.32;0.56;0.32" dur="8s" begin="2.22s" repeatCount="indefinite" /></line>
-<line x1="327.06" y1="126.65" x2="328.03" y2="139.17" stroke="#D1D5DB" stroke-width="0.9" stroke-linecap="round" opacity="0.18"><animate attributeName="opacity" values="0.18;0.34;0.18" dur="8s" begin="0.34s" repeatCount="indefinite" /></line>
-<line x1="328.03" y1="139.17" x2="353.05" y2="140.80" stroke="#D1D5DB" stroke-width="0.9" stroke-linecap="round" opacity="0.18"><animate attributeName="opacity" values="0.18;0.34;0.18" dur="8s" begin="2.54s" repeatCount="indefinite" /></line>
-<line x1="339.45" y1="76.38" x2="341.93" y2="100.85" stroke="#BFD7EA" stroke-width="0.9" stroke-linecap="round" opacity="0.32"><animate attributeName="opacity" values="0.32;0.56;0.32" dur="8s" begin="2.31s" repeatCount="indefinite" /></line>
-<line x1="339.45" y1="76.38" x2="352.45" y2="88.90" stroke="#BFD7EA" stroke-width="0.9" stroke-linecap="round" opacity="0.32"><animate attributeName="opacity" values="0.32;0.56;0.32" dur="8s" begin="3.31s" repeatCount="indefinite" /></line>
-<line x1="341.93" y1="100.85" x2="352.45" y2="88.90" stroke="#BFD7EA" stroke-width="0.9" stroke-linecap="round" opacity="0.32"><animate attributeName="opacity" values="0.32;0.56;0.32" dur="8s" begin="2.06s" repeatCount="indefinite" /></line>
-<line x1="352.45" y1="88.90" x2="353.13" y2="113.02" stroke="#D1D5DB" stroke-width="0.9" stroke-linecap="round" opacity="0.18"><animate attributeName="opacity" values="0.18;0.34;0.18" dur="8s" begin="2.23s" repeatCount="indefinite" /></line>
-<line x1="352.45" y1="88.90" x2="365.39" y2="86.22" stroke="#D1D5DB" stroke-width="0.9" stroke-linecap="round" opacity="0.18"><animate attributeName="opacity" values="0.18;0.34;0.18" dur="8s" begin="3.76s" repeatCount="indefinite" /></line>
-<line x1="353.13" y1="113.02" x2="352.98" y2="127.47" stroke="#D1D5DB" stroke-width="0.9" stroke-linecap="round" opacity="0.18"><animate attributeName="opacity" values="0.18;0.34;0.18" dur="8s" begin="3.06s" repeatCount="indefinite" /></line>
-<line x1="353.13" y1="113.02" x2="367.39" y2="114.13" stroke="#D1D5DB" stroke-width="0.9" stroke-linecap="round" opacity="0.18"><animate attributeName="opacity" values="0.18;0.34;0.18" dur="8s" begin="3.01s" repeatCount="indefinite" /></line>
-<line x1="352.98" y1="127.47" x2="353.05" y2="140.80" stroke="#D1D5DB" stroke-width="0.9" stroke-linecap="round" opacity="0.18"><animate attributeName="opacity" values="0.18;0.34;0.18" dur="8s" begin="2.37s" repeatCount="indefinite" /></line>
-<line x1="353.05" y1="140.80" x2="367.40" y2="140.46" stroke="#D1D5DB" stroke-width="0.9" stroke-linecap="round" opacity="0.18"><animate attributeName="opacity" values="0.18;0.34;0.18" dur="8s" begin="1.41s" repeatCount="indefinite" /></line>
-<line x1="365.81" y1="76.69" x2="365.39" y2="86.22" stroke="#D1D5DB" stroke-width="0.9" stroke-linecap="round" opacity="0.18"><animate attributeName="opacity" values="0.18;0.34;0.18" dur="8s" begin="0.36s" repeatCount="indefinite" /></line>
-<line x1="365.39" y1="86.22" x2="367.32" y2="101.45" stroke="#D1D5DB" stroke-width="0.9" stroke-linecap="round" opacity="0.18"><animate attributeName="opacity" values="0.18;0.34;0.18" dur="8s" begin="2.11s" repeatCount="indefinite" /></line>
-<line x1="365.39" y1="86.22" x2="379.61" y2="87.50" stroke="#D1D5DB" stroke-width="0.9" stroke-linecap="round" opacity="0.18"><animate attributeName="opacity" values="0.18;0.34;0.18" dur="8s" begin="2.27s" repeatCount="indefinite" /></line>
-<line x1="367.32" y1="101.45" x2="367.39" y2="114.13" stroke="#D1D5DB" stroke-width="0.9" stroke-linecap="round" opacity="0.18"><animate attributeName="opacity" values="0.18;0.34;0.18" dur="8s" begin="1.90s" repeatCount="indefinite" /></line>
-<line x1="367.39" y1="114.13" x2="367.84" y2="128.75" stroke="#D1D5DB" stroke-width="0.9" stroke-linecap="round" opacity="0.18"><animate attributeName="opacity" values="0.18;0.34;0.18" dur="8s" begin="0.68s" repeatCount="indefinite" /></line>
-<line x1="367.84" y1="128.75" x2="367.40" y2="140.46" stroke="#D1D5DB" stroke-width="0.9" stroke-linecap="round" opacity="0.18"><animate attributeName="opacity" values="0.18;0.34;0.18" dur="8s" begin="1.24s" repeatCount="indefinite" /></line>
-<line x1="367.40" y1="140.46" x2="392.45" y2="99.41" stroke="#BFD7EA" stroke-width="0.9" stroke-linecap="round" opacity="0.32"><animate attributeName="opacity" values="0.32;0.56;0.32" dur="8s" begin="3.72s" repeatCount="indefinite" /></line>
-<line x1="381.03" y1="75.56" x2="379.61" y2="87.50" stroke="#D1D5DB" stroke-width="0.9" stroke-linecap="round" opacity="0.18"><animate attributeName="opacity" values="0.18;0.34;0.18" dur="8s" begin="1.69s" repeatCount="indefinite" /></line>
-<line x1="379.61" y1="87.50" x2="391.59" y2="87.10" stroke="#D1D5DB" stroke-width="0.9" stroke-linecap="round" opacity="0.18"><animate attributeName="opacity" values="0.18;0.34;0.18" dur="8s" begin="3.28s" repeatCount="indefinite" /></line>
-<line x1="391.59" y1="87.10" x2="392.45" y2="99.41" stroke="#BFD7EA" stroke-width="0.9" stroke-linecap="round" opacity="0.32"><animate attributeName="opacity" values="0.32;0.56;0.32" dur="8s" begin="1.33s" repeatCount="indefinite" /></line>
-<line x1="392.45" y1="99.41" x2="418.66" y2="100.59" stroke="#BFD7EA" stroke-width="0.9" stroke-linecap="round" opacity="0.32"><animate attributeName="opacity" values="0.32;0.56;0.32" dur="8s" begin="0.78s" repeatCount="indefinite" /></line>
-<line x1="406.23" y1="140.73" x2="418.66" y2="100.59" stroke="#BFD7EA" stroke-width="0.9" stroke-linecap="round" opacity="0.32"><animate attributeName="opacity" values="0.32;0.56;0.32" dur="8s" begin="3.11s" repeatCount="indefinite" /></line>
-<line x1="419.94" y1="62.19" x2="419.89" y2="86.33" stroke="#D1D5DB" stroke-width="0.9" stroke-linecap="round" opacity="0.18"><animate attributeName="opacity" values="0.18;0.34;0.18" dur="8s" begin="0.30s" repeatCount="indefinite" /></line>
-<line x1="419.89" y1="86.33" x2="418.66" y2="100.59" stroke="#D1D5DB" stroke-width="0.9" stroke-linecap="round" opacity="0.18"><animate attributeName="opacity" values="0.18;0.34;0.18" dur="8s" begin="2.96s" repeatCount="indefinite" /></line>
-<line x1="418.66" y1="100.59" x2="444.73" y2="99.53" stroke="#D1D5DB" stroke-width="0.9" stroke-linecap="round" opacity="0.18"><animate attributeName="opacity" values="0.18;0.34;0.18" dur="8s" begin="2.00s" repeatCount="indefinite" /></line>
-<line x1="444.02" y1="73.21" x2="444.73" y2="99.53" stroke="#D1D5DB" stroke-width="0.9" stroke-linecap="round" opacity="0.18"><animate attributeName="opacity" values="0.18;0.34;0.18" dur="8s" begin="0.05s" repeatCount="indefinite" /></line>
-<line x1="444.02" y1="73.21" x2="458.94" y2="63.39" stroke="#D1D5DB" stroke-width="0.9" stroke-linecap="round" opacity="0.18"><animate attributeName="opacity" values="0.18;0.34;0.18" dur="8s" begin="3.83s" repeatCount="indefinite" /></line>
-<line x1="444.73" y1="99.53" x2="445.57" y2="112.90" stroke="#D1D5DB" stroke-width="0.9" stroke-linecap="round" opacity="0.18"><animate attributeName="opacity" values="0.18;0.34;0.18" dur="8s" begin="0.39s" repeatCount="indefinite" /></line>
-<line x1="496.65" y1="63.22" x2="523.67" y2="62.66" stroke="#D1D5DB" stroke-width="0.9" stroke-linecap="round" opacity="0.18"><animate attributeName="opacity" values="0.18;0.34;0.18" dur="8s" begin="2.79s" repeatCount="indefinite" /></line>
-<line x1="511.27" y1="113.34" x2="510.68" y2="139.96" stroke="#BFD7EA" stroke-width="0.9" stroke-linecap="round" opacity="0.32"><animate attributeName="opacity" values="0.32;0.56;0.32" dur="8s" begin="2.51s" repeatCount="indefinite" /></line>
-<line x1="705.73" y1="99.31" x2="717.08" y2="88.87" stroke="#D1D5DB" stroke-width="0.9" stroke-linecap="round" opacity="0.18"><animate attributeName="opacity" values="0.18;0.34;0.18" dur="8s" begin="1.55s" repeatCount="indefinite" /></line>
-<circle cx="43.68" cy="62.39" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2025-10-19: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="5.69s" repeatCount="indefinite" /></circle>
-<circle cx="41.71" cy="74.57" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2025-10-20: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="1.67s" repeatCount="indefinite" /></circle>
-<circle cx="42.45" cy="86.66" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2025-10-21: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="3.42s" repeatCount="indefinite" /></circle>
-<circle cx="41.34" cy="99.95" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2025-10-22: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="2.07s" repeatCount="indefinite" /></circle>
-<circle cx="43.67" cy="114.51" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2025-10-23: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="0.39s" repeatCount="indefinite" /></circle>
-<circle cx="41.20" cy="128.38" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2025-10-24: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="0.49s" repeatCount="indefinite" /></circle>
-<circle cx="42.96" cy="140.51" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2025-10-25: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="3.71s" repeatCount="indefinite" /></circle>
-<circle cx="54.66" cy="62.91" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2025-10-26: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="4.59s" repeatCount="indefinite" /></circle>
-<circle cx="53.24" cy="75.57" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2025-10-27: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="3.05s" repeatCount="indefinite" /></circle>
-<circle cx="55.62" cy="88.54" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2025-10-28: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="1.51s" repeatCount="indefinite" /></circle>
-<circle cx="55.93" cy="102.56" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2025-10-29: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="2.71s" repeatCount="indefinite" /></circle>
-<circle cx="55.86" cy="112.30" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2025-10-30: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="2.77s" repeatCount="indefinite" /></circle>
-<circle cx="53.53" cy="125.50" r="2.35" fill="#6B7280" opacity="0.55"><title>2025-10-31: 7 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="0.28s" repeatCount="indefinite" /></circle>
-<circle cx="53.57" cy="141.57" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2025-11-01: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="0.95s" repeatCount="indefinite" /></circle>
-<circle cx="68.95" cy="61.20" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2025-11-02: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="3.92s" repeatCount="indefinite" /></circle>
-<circle cx="68.82" cy="75.68" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2025-11-03: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="2.98s" repeatCount="indefinite" /></circle>
-<circle cx="66.85" cy="89.02" r="1.55" fill="#CFCFD6" opacity="0.55"><title>2025-11-04: 1 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="1.65s" repeatCount="indefinite" /></circle>
-<circle cx="67.71" cy="99.28" r="2.35" fill="#6B7280" opacity="0.55"><title>2025-11-05: 6 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="0.12s" repeatCount="indefinite" /></circle>
-<circle cx="69.71" cy="114.41" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2025-11-06: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="3.72s" repeatCount="indefinite" /></circle>
-<circle cx="68.97" cy="128.03" r="1.55" fill="#CFCFD6" opacity="0.55"><title>2025-11-07: 2 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="1.89s" repeatCount="indefinite" /></circle>
-<circle cx="67.01" cy="139.54" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2025-11-08: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="0.81s" repeatCount="indefinite" /></circle>
-<circle cx="81.21" cy="62.86" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2025-11-09: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="3.79s" repeatCount="indefinite" /></circle>
-<circle cx="80.96" cy="75.71" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2025-11-10: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="3.49s" repeatCount="indefinite" /></circle>
-<circle cx="80.69" cy="86.31" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2025-11-11: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="1.41s" repeatCount="indefinite" /></circle>
-<circle cx="81.97" cy="101.83" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2025-11-12: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="2.37s" repeatCount="indefinite" /></circle>
-<circle cx="80.22" cy="112.60" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2025-11-13: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="4.60s" repeatCount="indefinite" /></circle>
-<circle cx="80.89" cy="125.26" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2025-11-14: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="1.08s" repeatCount="indefinite" /></circle>
-<circle cx="82.18" cy="140.41" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2025-11-15: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="5.43s" repeatCount="indefinite" /></circle>
-<circle cx="95.52" cy="62.13" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2025-11-16: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="5.83s" repeatCount="indefinite" /></circle>
-<circle cx="93.86" cy="76.72" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2025-11-17: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="5.07s" repeatCount="indefinite" /></circle>
-<circle cx="95.16" cy="86.32" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2025-11-18: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="0.13s" repeatCount="indefinite" /></circle>
-<circle cx="95.38" cy="102.37" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2025-11-19: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="3.18s" repeatCount="indefinite" /></circle>
-<circle cx="93.74" cy="113.81" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2025-11-20: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="5.43s" repeatCount="indefinite" /></circle>
-<circle cx="92.98" cy="128.78" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2025-11-21: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="3.16s" repeatCount="indefinite" /></circle>
-<circle cx="93.84" cy="141.59" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2025-11-22: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="0.77s" repeatCount="indefinite" /></circle>
-<circle cx="105.79" cy="60.58" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2025-11-23: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="4.38s" repeatCount="indefinite" /></circle>
-<circle cx="108.34" cy="74.88" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2025-11-24: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="5.93s" repeatCount="indefinite" /></circle>
-<circle cx="106.36" cy="87.67" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2025-11-25: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="3.23s" repeatCount="indefinite" /></circle>
-<circle cx="108.36" cy="100.10" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2025-11-26: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="1.97s" repeatCount="indefinite" /></circle>
-<circle cx="106.04" cy="113.03" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2025-11-27: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="3.62s" repeatCount="indefinite" /></circle>
-<circle cx="105.43" cy="127.59" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2025-11-28: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="3.51s" repeatCount="indefinite" /></circle>
-<circle cx="106.80" cy="141.23" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2025-11-29: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="2.49s" repeatCount="indefinite" /></circle>
-<circle cx="118.23" cy="62.26" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2025-11-30: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="2.52s" repeatCount="indefinite" /></circle>
-<circle cx="120.65" cy="76.56" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2025-12-01: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="4.19s" repeatCount="indefinite" /></circle>
-<circle cx="119.42" cy="89.24" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2025-12-02: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="2.27s" repeatCount="indefinite" /></circle>
-<circle cx="121.68" cy="102.65" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2025-12-03: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="1.31s" repeatCount="indefinite" /></circle>
-<circle cx="121.55" cy="113.85" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2025-12-04: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="0.75s" repeatCount="indefinite" /></circle>
-<circle cx="118.27" cy="127.36" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2025-12-05: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="4.13s" repeatCount="indefinite" /></circle>
-<circle cx="120.94" cy="140.59" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2025-12-06: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="1.02s" repeatCount="indefinite" /></circle>
-<circle cx="133.11" cy="61.24" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2025-12-07: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="2.25s" repeatCount="indefinite" /></circle>
-<circle cx="131.32" cy="73.25" r="1.55" fill="#CFCFD6" opacity="0.55"><title>2025-12-08: 1 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="0.58s" repeatCount="indefinite" /></circle>
-<circle cx="133.15" cy="87.26" r="1.55" fill="#CFCFD6" opacity="0.55"><title>2025-12-09: 2 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="0.29s" repeatCount="indefinite" /></circle>
-<circle cx="132.56" cy="101.24" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2025-12-10: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="3.82s" repeatCount="indefinite" /></circle>
-<circle cx="133.02" cy="113.31" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2025-12-11: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="0.71s" repeatCount="indefinite" /></circle>
-<circle cx="132.61" cy="127.56" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2025-12-12: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="5.30s" repeatCount="indefinite" /></circle>
-<circle cx="134.79" cy="141.72" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2025-12-13: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="1.26s" repeatCount="indefinite" /></circle>
-<circle cx="147.13" cy="61.42" r="5.05" fill="#BFD7EA" opacity="0.10"><animate attributeName="opacity" values="0.06;0.18;0.06" dur="6s" begin="0.15s" repeatCount="indefinite" /></circle>
-<circle cx="147.13" cy="61.42" r="2.75" fill="#BFD7EA" opacity="0.55"><title>2025-12-14: 15 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="0.15s" repeatCount="indefinite" /></circle>
-<circle cx="147.61" cy="75.01" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2025-12-15: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="3.91s" repeatCount="indefinite" /></circle>
-<circle cx="146.63" cy="87.11" r="2.35" fill="#6B7280" opacity="0.55"><title>2025-12-16: 6 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="2.26s" repeatCount="indefinite" /></circle>
-<circle cx="146.33" cy="99.96" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2025-12-17: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="4.45s" repeatCount="indefinite" /></circle>
-<circle cx="145.14" cy="112.38" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2025-12-18: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="3.69s" repeatCount="indefinite" /></circle>
-<circle cx="145.28" cy="127.94" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2025-12-19: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="0.38s" repeatCount="indefinite" /></circle>
-<circle cx="146.37" cy="140.89" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2025-12-20: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="0.91s" repeatCount="indefinite" /></circle>
-<circle cx="160.46" cy="61.45" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2025-12-21: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="3.06s" repeatCount="indefinite" /></circle>
-<circle cx="159.92" cy="75.86" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2025-12-22: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="1.73s" repeatCount="indefinite" /></circle>
-<circle cx="159.44" cy="86.93" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2025-12-23: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="1.30s" repeatCount="indefinite" /></circle>
-<circle cx="158.26" cy="100.28" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2025-12-24: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="2.69s" repeatCount="indefinite" /></circle>
-<circle cx="159.67" cy="112.73" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2025-12-25: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="3.43s" repeatCount="indefinite" /></circle>
-<circle cx="159.26" cy="127.73" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2025-12-26: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="3.32s" repeatCount="indefinite" /></circle>
-<circle cx="159.76" cy="141.65" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2025-12-27: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="3.56s" repeatCount="indefinite" /></circle>
-<circle cx="173.46" cy="62.15" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2025-12-28: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="5.30s" repeatCount="indefinite" /></circle>
-<circle cx="170.94" cy="74.11" r="1.95" fill="#A7AFBA" opacity="0.55"><title>2025-12-29: 4 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="1.02s" repeatCount="indefinite" /></circle>
-<circle cx="173.77" cy="87.41" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2025-12-30: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="1.61s" repeatCount="indefinite" /></circle>
-<circle cx="170.54" cy="101.74" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2025-12-31: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="4.20s" repeatCount="indefinite" /></circle>
-<circle cx="170.82" cy="114.31" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-01-01: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="3.37s" repeatCount="indefinite" /></circle>
-<circle cx="171.55" cy="128.24" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-01-02: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="2.54s" repeatCount="indefinite" /></circle>
-<circle cx="171.75" cy="138.82" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-01-03: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="3.34s" repeatCount="indefinite" /></circle>
-<circle cx="183.80" cy="61.16" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-01-04: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="1.38s" repeatCount="indefinite" /></circle>
-<circle cx="184.99" cy="75.72" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-01-05: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="4.22s" repeatCount="indefinite" /></circle>
-<circle cx="185.23" cy="88.46" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-01-06: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="1.53s" repeatCount="indefinite" /></circle>
-<circle cx="186.61" cy="100.76" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-01-07: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="5.46s" repeatCount="indefinite" /></circle>
-<circle cx="184.58" cy="113.48" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-01-08: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="0.06s" repeatCount="indefinite" /></circle>
-<circle cx="185.77" cy="125.37" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-01-09: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="2.10s" repeatCount="indefinite" /></circle>
-<circle cx="184.55" cy="141.71" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-01-10: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="4.69s" repeatCount="indefinite" /></circle>
-<circle cx="199.32" cy="61.62" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-01-11: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="5.88s" repeatCount="indefinite" /></circle>
-<circle cx="199.32" cy="74.59" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-01-12: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="1.43s" repeatCount="indefinite" /></circle>
-<circle cx="198.09" cy="86.28" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-01-13: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="1.12s" repeatCount="indefinite" /></circle>
-<circle cx="198.81" cy="102.18" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-01-14: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="2.33s" repeatCount="indefinite" /></circle>
-<circle cx="196.35" cy="113.21" r="1.55" fill="#CFCFD6" opacity="0.55"><title>2026-01-15: 1 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="4.09s" repeatCount="indefinite" /></circle>
-<circle cx="199.72" cy="126.25" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-01-16: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="2.44s" repeatCount="indefinite" /></circle>
-<circle cx="196.64" cy="141.29" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-01-17: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="5.58s" repeatCount="indefinite" /></circle>
-<circle cx="210.55" cy="63.49" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-01-18: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="0.25s" repeatCount="indefinite" /></circle>
-<circle cx="212.10" cy="75.68" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-01-19: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="0.12s" repeatCount="indefinite" /></circle>
-<circle cx="212.48" cy="89.57" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-01-20: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="5.56s" repeatCount="indefinite" /></circle>
-<circle cx="211.18" cy="101.55" r="2.35" fill="#6B7280" opacity="0.55"><title>2026-01-21: 6 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="0.12s" repeatCount="indefinite" /></circle>
-<circle cx="211.22" cy="114.73" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-01-22: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="2.07s" repeatCount="indefinite" /></circle>
-<circle cx="209.45" cy="126.91" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-01-23: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="2.93s" repeatCount="indefinite" /></circle>
-<circle cx="211.57" cy="140.87" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-01-24: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="2.75s" repeatCount="indefinite" /></circle>
-<circle cx="222.34" cy="62.88" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-01-25: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="1.56s" repeatCount="indefinite" /></circle>
-<circle cx="225.10" cy="74.94" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-01-26: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="5.93s" repeatCount="indefinite" /></circle>
-<circle cx="222.36" cy="86.46" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-01-27: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="3.67s" repeatCount="indefinite" /></circle>
-<circle cx="224.97" cy="99.93" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-01-28: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="0.40s" repeatCount="indefinite" /></circle>
-<circle cx="224.36" cy="114.34" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-01-29: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="1.37s" repeatCount="indefinite" /></circle>
-<circle cx="222.89" cy="126.75" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-01-30: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="4.12s" repeatCount="indefinite" /></circle>
-<circle cx="224.48" cy="140.02" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-01-31: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="2.51s" repeatCount="indefinite" /></circle>
-<circle cx="235.80" cy="63.47" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-02-01: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="2.37s" repeatCount="indefinite" /></circle>
-<circle cx="238.67" cy="75.43" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-02-02: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="4.04s" repeatCount="indefinite" /></circle>
-<circle cx="236.49" cy="88.18" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-02-03: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="0.95s" repeatCount="indefinite" /></circle>
-<circle cx="236.97" cy="99.79" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-02-04: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="3.72s" repeatCount="indefinite" /></circle>
-<circle cx="236.29" cy="114.98" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-02-05: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="5.91s" repeatCount="indefinite" /></circle>
-<circle cx="236.43" cy="127.46" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-02-06: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="0.37s" repeatCount="indefinite" /></circle>
-<circle cx="238.28" cy="140.51" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-02-07: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="3.83s" repeatCount="indefinite" /></circle>
-<circle cx="250.49" cy="61.76" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-02-08: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="2.36s" repeatCount="indefinite" /></circle>
-<circle cx="251.52" cy="75.22" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-02-09: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="4.26s" repeatCount="indefinite" /></circle>
-<circle cx="250.94" cy="89.42" r="1.95" fill="#A7AFBA" opacity="0.55"><title>2026-02-10: 3 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="4.22s" repeatCount="indefinite" /></circle>
-<circle cx="248.66" cy="100.13" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-02-11: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="5.60s" repeatCount="indefinite" /></circle>
-<circle cx="250.18" cy="114.85" r="1.55" fill="#CFCFD6" opacity="0.55"><title>2026-02-12: 1 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="0.11s" repeatCount="indefinite" /></circle>
-<circle cx="248.89" cy="126.22" r="1.55" fill="#CFCFD6" opacity="0.55"><title>2026-02-13: 1 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="2.56s" repeatCount="indefinite" /></circle>
-<circle cx="250.64" cy="138.71" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-02-14: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="0.47s" repeatCount="indefinite" /></circle>
-<circle cx="262.36" cy="63.40" r="1.95" fill="#A7AFBA" opacity="0.55"><title>2026-02-15: 3 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="5.68s" repeatCount="indefinite" /></circle>
-<circle cx="263.11" cy="76.74" r="1.55" fill="#CFCFD6" opacity="0.55"><title>2026-02-16: 1 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="5.19s" repeatCount="indefinite" /></circle>
-<circle cx="262.55" cy="88.90" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-02-17: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="4.64s" repeatCount="indefinite" /></circle>
-<circle cx="264.35" cy="100.33" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-02-18: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="2.90s" repeatCount="indefinite" /></circle>
-<circle cx="264.48" cy="113.67" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-02-19: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="0.23s" repeatCount="indefinite" /></circle>
-<circle cx="263.03" cy="127.77" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-02-20: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="3.01s" repeatCount="indefinite" /></circle>
-<circle cx="262.06" cy="141.14" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-02-21: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="3.02s" repeatCount="indefinite" /></circle>
-<circle cx="276.45" cy="62.70" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-02-22: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="5.25s" repeatCount="indefinite" /></circle>
-<circle cx="276.25" cy="74.30" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-02-23: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="2.81s" repeatCount="indefinite" /></circle>
-<circle cx="276.68" cy="87.88" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-02-24: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="2.03s" repeatCount="indefinite" /></circle>
-<circle cx="276.21" cy="100.43" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-02-25: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="2.43s" repeatCount="indefinite" /></circle>
-<circle cx="277.54" cy="112.44" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-02-26: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="0.85s" repeatCount="indefinite" /></circle>
-<circle cx="276.53" cy="128.77" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-02-27: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="0.39s" repeatCount="indefinite" /></circle>
-<circle cx="276.34" cy="141.34" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-02-28: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="5.26s" repeatCount="indefinite" /></circle>
-<circle cx="290.33" cy="62.61" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-03-01: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="3.93s" repeatCount="indefinite" /></circle>
-<circle cx="289.58" cy="76.27" r="5.05" fill="#BFD7EA" opacity="0.10"><animate attributeName="opacity" values="0.06;0.18;0.06" dur="6s" begin="5.87s" repeatCount="indefinite" /></circle>
-<circle cx="289.58" cy="76.27" r="2.75" fill="#BFD7EA" opacity="0.55"><title>2026-03-02: 8 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="5.87s" repeatCount="indefinite" /></circle>
-<circle cx="290.53" cy="87.19" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-03-03: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="0.04s" repeatCount="indefinite" /></circle>
-<circle cx="288.34" cy="99.25" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-03-04: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="2.52s" repeatCount="indefinite" /></circle>
-<circle cx="289.78" cy="112.52" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-03-05: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="1.63s" repeatCount="indefinite" /></circle>
-<circle cx="289.82" cy="128.03" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-03-06: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="0.24s" repeatCount="indefinite" /></circle>
-<circle cx="288.11" cy="141.76" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-03-07: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="0.68s" repeatCount="indefinite" /></circle>
-<circle cx="303.04" cy="60.90" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-03-08: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="0.65s" repeatCount="indefinite" /></circle>
-<circle cx="302.32" cy="73.32" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-03-09: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="0.72s" repeatCount="indefinite" /></circle>
-<circle cx="301.42" cy="86.71" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-03-10: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="5.55s" repeatCount="indefinite" /></circle>
-<circle cx="300.50" cy="102.43" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-03-11: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="1.03s" repeatCount="indefinite" /></circle>
-<circle cx="300.22" cy="113.09" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-03-12: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="1.99s" repeatCount="indefinite" /></circle>
-<circle cx="302.58" cy="128.00" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-03-13: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="4.45s" repeatCount="indefinite" /></circle>
-<circle cx="303.11" cy="139.97" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-03-14: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="0.96s" repeatCount="indefinite" /></circle>
-<circle cx="314.40" cy="61.03" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-03-15: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="2.40s" repeatCount="indefinite" /></circle>
-<circle cx="315.50" cy="76.34" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-03-16: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="2.14s" repeatCount="indefinite" /></circle>
-<circle cx="315.56" cy="86.31" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-03-17: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="5.59s" repeatCount="indefinite" /></circle>
-<circle cx="315.78" cy="100.46" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-03-18: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="2.63s" repeatCount="indefinite" /></circle>
-<circle cx="316.06" cy="114.08" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-03-19: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="1.48s" repeatCount="indefinite" /></circle>
-<circle cx="316.48" cy="126.24" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-03-20: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="3.47s" repeatCount="indefinite" /></circle>
-<circle cx="314.37" cy="140.40" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-03-21: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="1.18s" repeatCount="indefinite" /></circle>
-<circle cx="329.65" cy="61.59" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-03-22: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="3.22s" repeatCount="indefinite" /></circle>
-<circle cx="327.42" cy="75.46" r="1.55" fill="#CFCFD6" opacity="0.55"><title>2026-03-23: 1 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="0.98s" repeatCount="indefinite" /></circle>
-<circle cx="328.11" cy="88.20" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-03-24: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="0.96s" repeatCount="indefinite" /></circle>
-<circle cx="326.40" cy="101.05" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-03-25: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="5.35s" repeatCount="indefinite" /></circle>
-<circle cx="328.79" cy="113.04" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-03-26: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="3.82s" repeatCount="indefinite" /></circle>
-<circle cx="327.06" cy="126.65" r="1.95" fill="#A7AFBA" opacity="0.55"><title>2026-03-27: 3 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="2.24s" repeatCount="indefinite" /></circle>
-<circle cx="328.03" cy="139.17" r="1.95" fill="#A7AFBA" opacity="0.55"><title>2026-03-28: 3 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="0.14s" repeatCount="indefinite" /></circle>
-<circle cx="340.48" cy="63.64" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-03-29: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="4.85s" repeatCount="indefinite" /></circle>
-<circle cx="339.45" cy="76.38" r="5.05" fill="#BFD7EA" opacity="0.10"><animate attributeName="opacity" values="0.06;0.18;0.06" dur="6s" begin="1.60s" repeatCount="indefinite" /></circle>
-<circle cx="339.45" cy="76.38" r="2.75" fill="#BFD7EA" opacity="0.55"><title>2026-03-30: 8 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="1.60s" repeatCount="indefinite" /></circle>
-<circle cx="342.39" cy="89.74" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-03-31: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="1.15s" repeatCount="indefinite" /></circle>
-<circle cx="341.93" cy="100.85" r="5.05" fill="#BFD7EA" opacity="0.10"><animate attributeName="opacity" values="0.06;0.18;0.06" dur="6s" begin="4.78s" repeatCount="indefinite" /></circle>
-<circle cx="341.93" cy="100.85" r="2.75" fill="#BFD7EA" opacity="0.55"><title>2026-04-01: 8 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="4.78s" repeatCount="indefinite" /></circle>
-<circle cx="341.60" cy="114.19" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-04-02: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="0.85s" repeatCount="indefinite" /></circle>
-<circle cx="340.34" cy="125.70" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-04-03: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="3.58s" repeatCount="indefinite" /></circle>
-<circle cx="339.93" cy="139.34" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-04-04: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="2.35s" repeatCount="indefinite" /></circle>
-<circle cx="354.77" cy="61.52" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-04-05: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="3.70s" repeatCount="indefinite" /></circle>
-<circle cx="352.23" cy="74.61" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-04-06: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="0.96s" repeatCount="indefinite" /></circle>
-<circle cx="352.45" cy="88.90" r="1.55" fill="#CFCFD6" opacity="0.55"><title>2026-04-07: 1 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="4.29s" repeatCount="indefinite" /></circle>
-<circle cx="353.91" cy="102.56" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-04-08: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="3.49s" repeatCount="indefinite" /></circle>
-<circle cx="353.13" cy="113.02" r="1.55" fill="#CFCFD6" opacity="0.55"><title>2026-04-09: 1 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="5.37s" repeatCount="indefinite" /></circle>
-<circle cx="352.98" cy="127.47" r="1.95" fill="#A7AFBA" opacity="0.55"><title>2026-04-10: 5 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="1.34s" repeatCount="indefinite" /></circle>
-<circle cx="353.05" cy="140.80" r="1.55" fill="#CFCFD6" opacity="0.55"><title>2026-04-11: 2 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="5.63s" repeatCount="indefinite" /></circle>
-<circle cx="366.07" cy="62.28" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-04-12: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="4.49s" repeatCount="indefinite" /></circle>
-<circle cx="365.81" cy="76.69" r="1.95" fill="#A7AFBA" opacity="0.55"><title>2026-04-13: 5 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="5.57s" repeatCount="indefinite" /></circle>
-<circle cx="365.39" cy="86.22" r="1.55" fill="#CFCFD6" opacity="0.55"><title>2026-04-14: 1 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="2.91s" repeatCount="indefinite" /></circle>
-<circle cx="367.32" cy="101.45" r="2.35" fill="#6B7280" opacity="0.55"><title>2026-04-15: 7 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="3.02s" repeatCount="indefinite" /></circle>
-<circle cx="367.39" cy="114.13" r="1.55" fill="#CFCFD6" opacity="0.55"><title>2026-04-16: 2 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="0.55s" repeatCount="indefinite" /></circle>
-<circle cx="367.84" cy="128.75" r="1.55" fill="#CFCFD6" opacity="0.55"><title>2026-04-17: 2 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="5.65s" repeatCount="indefinite" /></circle>
-<circle cx="367.40" cy="140.46" r="1.55" fill="#CFCFD6" opacity="0.55"><title>2026-04-18: 1 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="5.76s" repeatCount="indefinite" /></circle>
-<circle cx="381.26" cy="60.69" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-04-19: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="0.64s" repeatCount="indefinite" /></circle>
-<circle cx="381.03" cy="75.56" r="1.95" fill="#A7AFBA" opacity="0.55"><title>2026-04-20: 4 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="5.28s" repeatCount="indefinite" /></circle>
-<circle cx="379.61" cy="87.50" r="1.95" fill="#A7AFBA" opacity="0.55"><title>2026-04-21: 3 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="1.28s" repeatCount="indefinite" /></circle>
-<circle cx="380.66" cy="101.77" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-04-22: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="3.89s" repeatCount="indefinite" /></circle>
-<circle cx="381.66" cy="115.07" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-04-23: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="2.06s" repeatCount="indefinite" /></circle>
-<circle cx="381.14" cy="128.75" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-04-24: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="1.34s" repeatCount="indefinite" /></circle>
-<circle cx="378.47" cy="140.37" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-04-25: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="1.55s" repeatCount="indefinite" /></circle>
-<circle cx="392.37" cy="61.59" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-04-26: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="3.90s" repeatCount="indefinite" /></circle>
-<circle cx="392.49" cy="74.58" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-04-27: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="0.82s" repeatCount="indefinite" /></circle>
-<circle cx="391.59" cy="87.10" r="1.95" fill="#A7AFBA" opacity="0.55"><title>2026-04-28: 5 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="2.12s" repeatCount="indefinite" /></circle>
-<circle cx="392.45" cy="99.41" r="5.05" fill="#BFD7EA" opacity="0.10"><animate attributeName="opacity" values="0.06;0.18;0.06" dur="6s" begin="4.68s" repeatCount="indefinite" /></circle>
-<circle cx="392.45" cy="99.41" r="2.75" fill="#BFD7EA" opacity="0.55"><title>2026-04-29: 27 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="4.68s" repeatCount="indefinite" /></circle>
-<circle cx="391.72" cy="113.79" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-04-30: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="1.75s" repeatCount="indefinite" /></circle>
-<circle cx="394.38" cy="125.60" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-05-01: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="2.38s" repeatCount="indefinite" /></circle>
-<circle cx="391.67" cy="140.26" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-05-02: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="1.05s" repeatCount="indefinite" /></circle>
-<circle cx="405.49" cy="63.10" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-05-03: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="4.81s" repeatCount="indefinite" /></circle>
-<circle cx="406.96" cy="74.84" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-05-04: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="1.48s" repeatCount="indefinite" /></circle>
-<circle cx="404.98" cy="87.24" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-05-05: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="0.69s" repeatCount="indefinite" /></circle>
-<circle cx="407.59" cy="101.32" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-05-06: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="5.92s" repeatCount="indefinite" /></circle>
-<circle cx="406.05" cy="115.12" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-05-07: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="3.50s" repeatCount="indefinite" /></circle>
-<circle cx="406.56" cy="127.83" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-05-08: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="4.82s" repeatCount="indefinite" /></circle>
-<circle cx="406.23" cy="140.73" r="5.05" fill="#BFD7EA" opacity="0.10"><animate attributeName="opacity" values="0.06;0.18;0.06" dur="6s" begin="0.68s" repeatCount="indefinite" /></circle>
-<circle cx="406.23" cy="140.73" r="2.75" fill="#BFD7EA" opacity="0.55"><title>2026-05-09: 31 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="0.68s" repeatCount="indefinite" /></circle>
-<circle cx="419.94" cy="62.19" r="1.95" fill="#A7AFBA" opacity="0.55"><title>2026-05-10: 3 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="5.88s" repeatCount="indefinite" /></circle>
-<circle cx="418.03" cy="75.59" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-05-11: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="5.11s" repeatCount="indefinite" /></circle>
-<circle cx="419.89" cy="86.33" r="1.55" fill="#CFCFD6" opacity="0.55"><title>2026-05-12: 1 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="2.77s" repeatCount="indefinite" /></circle>
-<circle cx="418.66" cy="100.59" r="1.95" fill="#A7AFBA" opacity="0.55"><title>2026-05-13: 4 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="5.39s" repeatCount="indefinite" /></circle>
-<circle cx="420.26" cy="113.23" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-05-14: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="4.83s" repeatCount="indefinite" /></circle>
-<circle cx="420.24" cy="127.09" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-05-15: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="2.95s" repeatCount="indefinite" /></circle>
-<circle cx="418.04" cy="139.89" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-05-16: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="0.53s" repeatCount="indefinite" /></circle>
-<circle cx="432.76" cy="62.63" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-05-17: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="0.55s" repeatCount="indefinite" /></circle>
-<circle cx="430.95" cy="73.27" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-05-18: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="2.34s" repeatCount="indefinite" /></circle>
-<circle cx="431.49" cy="88.27" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-05-19: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="5.72s" repeatCount="indefinite" /></circle>
-<circle cx="432.01" cy="99.70" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-05-20: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="4.91s" repeatCount="indefinite" /></circle>
-<circle cx="432.52" cy="114.87" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-05-21: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="0.26s" repeatCount="indefinite" /></circle>
-<circle cx="431.48" cy="127.21" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-05-22: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="2.59s" repeatCount="indefinite" /></circle>
-<circle cx="433.06" cy="141.13" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-05-23: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="2.67s" repeatCount="indefinite" /></circle>
-<circle cx="443.46" cy="62.32" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-05-24: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="5.14s" repeatCount="indefinite" /></circle>
-<circle cx="444.02" cy="73.21" r="1.95" fill="#A7AFBA" opacity="0.55"><title>2026-05-25: 5 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="3.56s" repeatCount="indefinite" /></circle>
-<circle cx="446.33" cy="87.43" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-05-26: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="4.29s" repeatCount="indefinite" /></circle>
-<circle cx="444.73" cy="99.53" r="1.95" fill="#A7AFBA" opacity="0.55"><title>2026-05-27: 4 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="1.27s" repeatCount="indefinite" /></circle>
-<circle cx="445.57" cy="112.90" r="1.95" fill="#A7AFBA" opacity="0.55"><title>2026-05-28: 4 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="0.53s" repeatCount="indefinite" /></circle>
-<circle cx="445.62" cy="126.07" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-05-29: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="0.85s" repeatCount="indefinite" /></circle>
-<circle cx="445.92" cy="139.35" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-05-30: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="5.16s" repeatCount="indefinite" /></circle>
-<circle cx="458.94" cy="63.39" r="1.55" fill="#CFCFD6" opacity="0.55"><title>2026-05-31: 1 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="0.60s" repeatCount="indefinite" /></circle>
-<circle cx="457.09" cy="76.09" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-06-01: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="3.38s" repeatCount="indefinite" /></circle>
-<circle cx="458.79" cy="88.78" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-06-02: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="0.04s" repeatCount="indefinite" /></circle>
-<circle cx="457.79" cy="102.57" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-06-03: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="1.82s" repeatCount="indefinite" /></circle>
-<circle cx="458.90" cy="115.43" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-06-04: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="4.68s" repeatCount="indefinite" /></circle>
-<circle cx="458.94" cy="126.83" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-06-05: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="4.53s" repeatCount="indefinite" /></circle>
-<circle cx="459.16" cy="141.58" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-06-06: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="2.29s" repeatCount="indefinite" /></circle>
-<circle cx="469.66" cy="62.98" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-06-07: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="1.10s" repeatCount="indefinite" /></circle>
-<circle cx="471.67" cy="76.56" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-06-08: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="5.93s" repeatCount="indefinite" /></circle>
-<circle cx="470.69" cy="89.46" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-06-09: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="3.78s" repeatCount="indefinite" /></circle>
-<circle cx="472.38" cy="100.58" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-06-10: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="5.69s" repeatCount="indefinite" /></circle>
-<circle cx="472.61" cy="113.26" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-06-11: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="4.82s" repeatCount="indefinite" /></circle>
-<circle cx="471.34" cy="128.09" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-06-12: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="2.01s" repeatCount="indefinite" /></circle>
-<circle cx="469.43" cy="140.01" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-06-13: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="0.14s" repeatCount="indefinite" /></circle>
-<circle cx="484.56" cy="62.56" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-06-14: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="1.58s" repeatCount="indefinite" /></circle>
-<circle cx="482.49" cy="74.11" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-06-15: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="4.65s" repeatCount="indefinite" /></circle>
-<circle cx="485.30" cy="86.59" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-06-16: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="4.47s" repeatCount="indefinite" /></circle>
-<circle cx="482.99" cy="99.81" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-06-17: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="2.10s" repeatCount="indefinite" /></circle>
-<circle cx="483.31" cy="114.49" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-06-18: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="3.05s" repeatCount="indefinite" /></circle>
-<circle cx="485.19" cy="128.29" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-06-19: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="1.60s" repeatCount="indefinite" /></circle>
-<circle cx="484.74" cy="139.13" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-06-20: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="2.19s" repeatCount="indefinite" /></circle>
-<circle cx="496.65" cy="63.22" r="1.95" fill="#A7AFBA" opacity="0.55"><title>2026-06-21: 3 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="4.05s" repeatCount="indefinite" /></circle>
-<circle cx="498.71" cy="73.45" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-06-22: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="3.98s" repeatCount="indefinite" /></circle>
-<circle cx="498.78" cy="88.57" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-06-23: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="5.08s" repeatCount="indefinite" /></circle>
-<circle cx="497.49" cy="100.99" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-06-24: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="5.30s" repeatCount="indefinite" /></circle>
-<circle cx="497.32" cy="115.44" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-06-25: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="2.28s" repeatCount="indefinite" /></circle>
-<circle cx="496.14" cy="126.66" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-06-26: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="4.32s" repeatCount="indefinite" /></circle>
-<circle cx="497.26" cy="139.24" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-06-27: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="1.16s" repeatCount="indefinite" /></circle>
-<circle cx="510.17" cy="61.91" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-06-28: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="3.13s" repeatCount="indefinite" /></circle>
-<circle cx="511.26" cy="76.35" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-06-29: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="1.73s" repeatCount="indefinite" /></circle>
-<circle cx="508.41" cy="89.64" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-06-30: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="4.97s" repeatCount="indefinite" /></circle>
-<circle cx="508.60" cy="101.52" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-07-01: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="1.83s" repeatCount="indefinite" /></circle>
-<circle cx="511.27" cy="113.34" r="5.05" fill="#BFD7EA" opacity="0.10"><animate attributeName="opacity" values="0.06;0.18;0.06" dur="6s" begin="5.99s" repeatCount="indefinite" /></circle>
-<circle cx="511.27" cy="113.34" r="2.75" fill="#BFD7EA" opacity="0.55"><title>2026-07-02: 10 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="5.99s" repeatCount="indefinite" /></circle>
-<circle cx="510.07" cy="128.08" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-07-03: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="3.61s" repeatCount="indefinite" /></circle>
-<circle cx="510.68" cy="139.96" r="5.05" fill="#BFD7EA" opacity="0.10"><animate attributeName="opacity" values="0.06;0.18;0.06" dur="6s" begin="4.03s" repeatCount="indefinite" /></circle>
-<circle cx="510.68" cy="139.96" r="2.75" fill="#BFD7EA" opacity="0.55"><title>2026-07-04: 15 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="4.03s" repeatCount="indefinite" /></circle>
-<circle cx="523.67" cy="62.66" r="1.55" fill="#CFCFD6" opacity="0.55"><title>2026-07-05: 2 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="0.40s" repeatCount="indefinite" /></circle>
-<circle cx="523.55" cy="74.29" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-07-06: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="4.32s" repeatCount="indefinite" /></circle>
-<circle cx="521.82" cy="88.72" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-07-07: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="1.39s" repeatCount="indefinite" /></circle>
-<circle cx="521.91" cy="102.51" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-07-08: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="2.57s" repeatCount="indefinite" /></circle>
-<circle cx="521.36" cy="112.82" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-07-09: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="4.75s" repeatCount="indefinite" /></circle>
-<circle cx="521.39" cy="128.72" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-07-10: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="0.96s" repeatCount="indefinite" /></circle>
-<circle cx="521.21" cy="141.36" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-07-11: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="3.05s" repeatCount="indefinite" /></circle>
-<circle cx="535.55" cy="61.07" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-07-12: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="4.18s" repeatCount="indefinite" /></circle>
-<circle cx="536.60" cy="74.93" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-07-13: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="2.83s" repeatCount="indefinite" /></circle>
-<circle cx="537.18" cy="89.30" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-07-14: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="2.07s" repeatCount="indefinite" /></circle>
-<circle cx="537.68" cy="100.11" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-07-15: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="4.25s" repeatCount="indefinite" /></circle>
-<circle cx="535.32" cy="114.73" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-07-16: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="2.39s" repeatCount="indefinite" /></circle>
-<circle cx="537.15" cy="125.77" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-07-17: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="4.00s" repeatCount="indefinite" /></circle>
-<circle cx="534.77" cy="141.49" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-07-18: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="1.56s" repeatCount="indefinite" /></circle>
-<circle cx="548.86" cy="61.77" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-07-19: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="3.72s" repeatCount="indefinite" /></circle>
-<circle cx="549.63" cy="74.14" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-07-20: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="5.44s" repeatCount="indefinite" /></circle>
-<circle cx="548.05" cy="87.39" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-07-21: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="3.72s" repeatCount="indefinite" /></circle>
-<circle cx="548.50" cy="100.12" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-07-22: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="3.54s" repeatCount="indefinite" /></circle>
-<circle cx="547.98" cy="113.88" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-07-23: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="2.22s" repeatCount="indefinite" /></circle>
-<circle cx="550.39" cy="126.22" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-07-24: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="2.76s" repeatCount="indefinite" /></circle>
-<circle cx="549.32" cy="139.72" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-07-25: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="0.77s" repeatCount="indefinite" /></circle>
-<circle cx="563.19" cy="63.55" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-07-26: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="3.02s" repeatCount="indefinite" /></circle>
-<circle cx="560.65" cy="74.80" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-07-27: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="0.82s" repeatCount="indefinite" /></circle>
-<circle cx="560.43" cy="87.11" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-07-28: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="2.82s" repeatCount="indefinite" /></circle>
-<circle cx="563.52" cy="101.20" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-07-29: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="1.83s" repeatCount="indefinite" /></circle>
-<circle cx="561.47" cy="114.60" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-07-30: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="2.64s" repeatCount="indefinite" /></circle>
-<circle cx="561.73" cy="125.46" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-07-31: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="3.42s" repeatCount="indefinite" /></circle>
-<circle cx="560.60" cy="141.80" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-08-01: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="2.47s" repeatCount="indefinite" /></circle>
-<circle cx="576.49" cy="61.37" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-08-02: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="4.67s" repeatCount="indefinite" /></circle>
-<circle cx="575.37" cy="73.30" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-08-03: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="2.10s" repeatCount="indefinite" /></circle>
-<circle cx="576.79" cy="86.99" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-08-04: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="1.48s" repeatCount="indefinite" /></circle>
-<circle cx="574.71" cy="99.50" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-08-05: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="4.71s" repeatCount="indefinite" /></circle>
-<circle cx="575.67" cy="112.34" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-08-06: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="2.09s" repeatCount="indefinite" /></circle>
-<circle cx="576.64" cy="127.91" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-08-07: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="5.76s" repeatCount="indefinite" /></circle>
-<circle cx="575.29" cy="141.38" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-08-08: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="3.35s" repeatCount="indefinite" /></circle>
-<circle cx="586.91" cy="62.85" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-08-09: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="0.08s" repeatCount="indefinite" /></circle>
-<circle cx="589.11" cy="74.20" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-08-10: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="2.73s" repeatCount="indefinite" /></circle>
-<circle cx="589.78" cy="86.59" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-08-11: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="4.09s" repeatCount="indefinite" /></circle>
-<circle cx="586.49" cy="99.47" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-08-12: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="0.88s" repeatCount="indefinite" /></circle>
-<circle cx="588.19" cy="112.29" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-08-13: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="5.11s" repeatCount="indefinite" /></circle>
-<circle cx="588.79" cy="127.97" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-08-14: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="4.09s" repeatCount="indefinite" /></circle>
-<circle cx="589.07" cy="140.23" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-08-15: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="3.51s" repeatCount="indefinite" /></circle>
-<circle cx="599.44" cy="62.38" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-08-16: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="5.06s" repeatCount="indefinite" /></circle>
-<circle cx="599.36" cy="76.13" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-08-17: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="0.79s" repeatCount="indefinite" /></circle>
-<circle cx="601.40" cy="89.73" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-08-18: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="1.61s" repeatCount="indefinite" /></circle>
-<circle cx="599.84" cy="101.95" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-08-19: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="1.22s" repeatCount="indefinite" /></circle>
-<circle cx="601.14" cy="112.41" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-08-20: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="0.15s" repeatCount="indefinite" /></circle>
-<circle cx="599.65" cy="128.00" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-08-21: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="1.82s" repeatCount="indefinite" /></circle>
-<circle cx="599.53" cy="138.73" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-08-22: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="1.60s" repeatCount="indefinite" /></circle>
-<circle cx="613.71" cy="63.47" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-08-23: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="1.54s" repeatCount="indefinite" /></circle>
-<circle cx="615.46" cy="74.13" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-08-24: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="5.97s" repeatCount="indefinite" /></circle>
-<circle cx="615.30" cy="89.12" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-08-25: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="2.41s" repeatCount="indefinite" /></circle>
-<circle cx="615.66" cy="99.72" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-08-26: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="2.42s" repeatCount="indefinite" /></circle>
-<circle cx="615.69" cy="115.23" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-08-27: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="2.38s" repeatCount="indefinite" /></circle>
-<circle cx="614.91" cy="126.48" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-08-28: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="4.02s" repeatCount="indefinite" /></circle>
-<circle cx="615.18" cy="140.81" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-08-29: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="0.56s" repeatCount="indefinite" /></circle>
-<circle cx="626.78" cy="62.94" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-08-30: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="0.15s" repeatCount="indefinite" /></circle>
-<circle cx="627.46" cy="73.55" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-08-31: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="5.76s" repeatCount="indefinite" /></circle>
-<circle cx="628.74" cy="89.33" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-09-01: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="2.20s" repeatCount="indefinite" /></circle>
-<circle cx="626.13" cy="100.70" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-09-02: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="3.76s" repeatCount="indefinite" /></circle>
-<circle cx="626.57" cy="115.07" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-09-03: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="0.25s" repeatCount="indefinite" /></circle>
-<circle cx="628.69" cy="126.77" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-09-04: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="0.18s" repeatCount="indefinite" /></circle>
-<circle cx="626.19" cy="140.59" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-09-05: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="2.94s" repeatCount="indefinite" /></circle>
-<circle cx="638.67" cy="63.13" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-09-06: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="3.67s" repeatCount="indefinite" /></circle>
-<circle cx="640.76" cy="76.50" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-09-07: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="3.07s" repeatCount="indefinite" /></circle>
-<circle cx="638.74" cy="89.34" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-09-08: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="2.87s" repeatCount="indefinite" /></circle>
-<circle cx="640.15" cy="101.44" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-09-09: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="1.15s" repeatCount="indefinite" /></circle>
-<circle cx="641.54" cy="114.03" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-09-10: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="4.97s" repeatCount="indefinite" /></circle>
-<circle cx="640.06" cy="126.46" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-09-11: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="2.42s" repeatCount="indefinite" /></circle>
-<circle cx="639.04" cy="139.03" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-09-12: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="4.46s" repeatCount="indefinite" /></circle>
-<circle cx="652.51" cy="61.86" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-09-13: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="3.61s" repeatCount="indefinite" /></circle>
-<circle cx="651.71" cy="75.85" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-09-14: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="4.74s" repeatCount="indefinite" /></circle>
-<circle cx="652.20" cy="86.34" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-09-15: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="0.89s" repeatCount="indefinite" /></circle>
-<circle cx="653.52" cy="101.29" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-09-16: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="4.78s" repeatCount="indefinite" /></circle>
-<circle cx="651.55" cy="115.71" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-09-17: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="2.01s" repeatCount="indefinite" /></circle>
-<circle cx="654.60" cy="125.41" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-09-18: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="4.18s" repeatCount="indefinite" /></circle>
-<circle cx="653.01" cy="139.35" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-09-19: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="0.50s" repeatCount="indefinite" /></circle>
-<circle cx="664.70" cy="62.46" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-09-20: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="0.59s" repeatCount="indefinite" /></circle>
-<circle cx="667.75" cy="74.44" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-09-21: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="3.69s" repeatCount="indefinite" /></circle>
-<circle cx="665.75" cy="87.10" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-09-22: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="4.73s" repeatCount="indefinite" /></circle>
-<circle cx="665.35" cy="102.57" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-09-23: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="2.86s" repeatCount="indefinite" /></circle>
-<circle cx="664.72" cy="113.23" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-09-24: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="4.15s" repeatCount="indefinite" /></circle>
-<circle cx="664.36" cy="126.75" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-09-25: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="0.71s" repeatCount="indefinite" /></circle>
-<circle cx="667.21" cy="139.53" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-09-26: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="1.11s" repeatCount="indefinite" /></circle>
-<circle cx="678.35" cy="62.82" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-09-27: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="0.85s" repeatCount="indefinite" /></circle>
-<circle cx="679.45" cy="73.79" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-09-28: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="1.60s" repeatCount="indefinite" /></circle>
-<circle cx="677.46" cy="89.47" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-09-29: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="0.27s" repeatCount="indefinite" /></circle>
-<circle cx="679.96" cy="102.73" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-09-30: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="1.36s" repeatCount="indefinite" /></circle>
-<circle cx="679.77" cy="113.46" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-10-01: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="5.69s" repeatCount="indefinite" /></circle>
-<circle cx="680.53" cy="127.01" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-10-02: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="0.31s" repeatCount="indefinite" /></circle>
-<circle cx="677.50" cy="138.95" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-10-03: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="4.76s" repeatCount="indefinite" /></circle>
-<circle cx="693.47" cy="63.15" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-10-04: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="5.38s" repeatCount="indefinite" /></circle>
-<circle cx="691.60" cy="75.91" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-10-05: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="0.52s" repeatCount="indefinite" /></circle>
-<circle cx="691.55" cy="89.35" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-10-06: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="5.95s" repeatCount="indefinite" /></circle>
-<circle cx="693.10" cy="101.73" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-10-07: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="0.72s" repeatCount="indefinite" /></circle>
-<circle cx="692.12" cy="115.18" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-10-08: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="3.71s" repeatCount="indefinite" /></circle>
-<circle cx="692.41" cy="128.74" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-10-09: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="0.11s" repeatCount="indefinite" /></circle>
-<circle cx="692.21" cy="141.73" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-10-10: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="3.92s" repeatCount="indefinite" /></circle>
-<circle cx="704.49" cy="62.98" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-10-11: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="1.51s" repeatCount="indefinite" /></circle>
-<circle cx="704.56" cy="73.90" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-10-12: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="5.31s" repeatCount="indefinite" /></circle>
-<circle cx="704.83" cy="87.96" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-10-13: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="3.75s" repeatCount="indefinite" /></circle>
-<circle cx="705.73" cy="99.31" r="1.95" fill="#A7AFBA" opacity="0.55"><title>2026-10-14: 4 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="1.42s" repeatCount="indefinite" /></circle>
-<circle cx="706.06" cy="112.73" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-10-15: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="5.06s" repeatCount="indefinite" /></circle>
-<circle cx="706.45" cy="128.43" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-10-16: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="1.86s" repeatCount="indefinite" /></circle>
-<circle cx="704.51" cy="138.98" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-10-17: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="4.43s" repeatCount="indefinite" /></circle>
-<circle cx="716.68" cy="63.41" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-10-18: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="5.38s" repeatCount="indefinite" /></circle>
-<circle cx="717.74" cy="75.01" r="1.15" fill="#E5E7EB" opacity="0.55"><title>2026-10-19: 0 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="4.62s" repeatCount="indefinite" /></circle>
-<circle cx="717.08" cy="88.87" r="2.35" fill="#6B7280" opacity="0.55"><title>2026-10-20: 7 contributions</title><animate attributeName="opacity" values="0.55;1.0;0.55" dur="5.5s" begin="2.65s" repeatCount="indefinite" /></circle>
-<text x="42" y="173" fill="#6B7280" font-family="Arial, Helvetica, sans-serif" font-size="10">251 contributions / last year</text>
-<text x="614" y="173" fill="#6B7280" font-family="Arial, Helvetica, sans-serif" font-size="10">Quiet</text>
-<circle cx="648" cy="169" r="1.30" fill="#E5E7EB" />
-<circle cx="662" cy="169" r="1.60" fill="#CFCFD6" />
-<circle cx="676" cy="169" r="1.90" fill="#A7AFBA" />
-<circle cx="690" cy="169" r="2.20" fill="#6B7280" />
-<circle cx="704" cy="169" r="2.50" fill="#BFD7EA" />
-<text x="724" y="173" fill="#6B7280" font-family="Arial, Helvetica, sans-serif" font-size="10">Active</text>
+<text x="44" y="20" fill="#6B7280" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700">CONSTELLATION / 365</text>
+<text x="44" y="34" fill="#9CA3AF" font-family="Arial, Helvetica, sans-serif" font-size="10">Active days become stars.</text>
+<text x="57" y="56" fill="#6B7280" font-family="Arial, Helvetica, sans-serif" font-size="9">Nov</text>
+<text x="122" y="56" fill="#6B7280" font-family="Arial, Helvetica, sans-serif" font-size="9">Dec</text>
+<text x="174" y="56" fill="#6B7280" font-family="Arial, Helvetica, sans-serif" font-size="9">Jan</text>
+<text x="239" y="56" fill="#6B7280" font-family="Arial, Helvetica, sans-serif" font-size="9">Feb</text>
+<text x="291" y="56" fill="#6B7280" font-family="Arial, Helvetica, sans-serif" font-size="9">Mar</text>
+<text x="343" y="56" fill="#6B7280" font-family="Arial, Helvetica, sans-serif" font-size="9">Apr</text>
+<text x="395" y="56" fill="#6B7280" font-family="Arial, Helvetica, sans-serif" font-size="9">May</text>
+<text x="460" y="56" fill="#6B7280" font-family="Arial, Helvetica, sans-serif" font-size="9">Jun</text>
+<text x="512" y="56" fill="#6B7280" font-family="Arial, Helvetica, sans-serif" font-size="9">Jul</text>
+<text x="564" y="56" fill="#6B7280" font-family="Arial, Helvetica, sans-serif" font-size="9">Aug</text>
+<text x="629" y="56" fill="#6B7280" font-family="Arial, Helvetica, sans-serif" font-size="9">Sep</text>
+<text x="681" y="56" fill="#6B7280" font-family="Arial, Helvetica, sans-serif" font-size="9">Oct</text>
+<circle cx="44.23" cy="74.05" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="43.96" cy="86.94" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="44.06" cy="99.81" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="43.91" cy="112.85" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="44.23" cy="126.07" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="43.89" cy="139.19" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="44.13" cy="152.07" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="56.95" cy="74.13" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="56.76" cy="87.08" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="57.09" cy="100.08" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="57.13" cy="113.22" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="57.12" cy="125.76" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="56.80" cy="152.22" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="70.13" cy="73.89" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="70.11" cy="87.09" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="70.24" cy="126.06" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="69.86" cy="151.94" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="83.03" cy="74.12" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="82.99" cy="87.10" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="82.96" cy="99.77" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="83.13" cy="113.12" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="82.89" cy="125.81" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="82.98" cy="138.76" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="83.16" cy="152.06" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="96.21" cy="74.02" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="95.98" cy="87.24" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="96.16" cy="99.77" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="96.19" cy="113.19" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="95.96" cy="125.97" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="95.86" cy="139.25" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="95.98" cy="152.22" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="108.83" cy="73.80" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="109.19" cy="86.98" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="108.91" cy="99.95" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="109.19" cy="112.88" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="108.87" cy="125.86" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="108.78" cy="139.08" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="108.97" cy="152.17" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="121.75" cy="74.04" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="122.09" cy="87.22" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="121.92" cy="100.17" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="122.23" cy="113.23" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="122.22" cy="125.98" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="121.76" cy="139.05" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="122.13" cy="152.08" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="135.01" cy="73.89" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="134.94" cy="113.03" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="135.00" cy="125.90" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="134.95" cy="139.08" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="135.25" cy="152.24" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="148.22" cy="87.00" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="148.05" cy="112.86" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="147.88" cy="125.78" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="147.90" cy="139.13" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="148.05" cy="152.12" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="161.20" cy="73.92" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="161.13" cy="87.12" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="161.06" cy="99.85" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="160.90" cy="112.90" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="161.09" cy="125.82" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="161.04" cy="139.10" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="161.11" cy="152.23" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="174.20" cy="74.02" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="174.25" cy="99.92" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="173.80" cy="113.10" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="173.84" cy="126.04" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="173.94" cy="139.17" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="173.97" cy="151.84" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="186.83" cy="73.88" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="187.00" cy="87.10" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="187.03" cy="100.06" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="187.22" cy="112.97" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="186.94" cy="125.93" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="187.11" cy="138.77" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="186.94" cy="152.24" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="200.18" cy="73.95" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="200.18" cy="86.94" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="200.01" cy="99.76" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="200.11" cy="113.16" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="200.24" cy="138.90" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="199.81" cy="152.18" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="212.94" cy="74.21" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="213.15" cy="87.10" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="213.21" cy="100.22" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="213.03" cy="126.10" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="212.78" cy="138.99" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="213.08" cy="152.12" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="225.77" cy="74.12" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="226.15" cy="86.99" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="225.77" cy="99.79" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="226.13" cy="112.85" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="226.05" cy="126.05" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="225.85" cy="138.97" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="226.07" cy="152.00" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="238.83" cy="74.20" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="239.23" cy="87.06" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="238.93" cy="100.03" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="239.00" cy="112.83" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="238.90" cy="126.14" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="238.92" cy="139.06" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="239.18" cy="152.07" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="252.07" cy="73.97" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="252.21" cy="87.03" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="251.81" cy="112.88" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="252.09" cy="151.82" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="264.94" cy="100.13" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="265.19" cy="112.91" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="265.21" cy="125.95" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="265.00" cy="139.11" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="264.87" cy="152.16" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="278.06" cy="74.10" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="278.03" cy="86.90" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="278.10" cy="99.98" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="278.03" cy="112.92" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="278.21" cy="125.78" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="278.07" cy="139.25" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="278.05" cy="152.19" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="291.18" cy="74.08" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="291.21" cy="99.89" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="290.91" cy="112.76" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="291.11" cy="125.79" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="291.11" cy="139.14" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="290.88" cy="152.24" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="304.14" cy="73.85" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="304.04" cy="86.77" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="303.92" cy="99.82" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="303.79" cy="113.20" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="303.75" cy="125.87" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="304.08" cy="139.14" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="304.15" cy="152.00" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="316.92" cy="73.86" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="317.07" cy="87.19" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="317.08" cy="99.77" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="317.11" cy="112.92" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="317.15" cy="126.01" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="317.21" cy="138.89" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="316.91" cy="152.06" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="330.23" cy="73.94" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="330.02" cy="100.03" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="329.78" cy="113.01" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="330.11" cy="125.87" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="342.93" cy="74.23" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="343.19" cy="100.24" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="343.08" cy="126.03" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="342.91" cy="138.82" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="342.85" cy="151.91" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="356.11" cy="73.93" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="355.75" cy="86.95" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="355.99" cy="113.22" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="368.87" cy="74.04" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="382.17" cy="73.82" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="382.09" cy="113.11" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="382.23" cy="126.15" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="382.16" cy="139.24" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="381.79" cy="152.05" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="394.91" cy="73.94" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="394.93" cy="86.94" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="394.82" cy="125.97" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="395.19" cy="138.81" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="394.81" cy="152.04" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="407.93" cy="74.15" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="408.13" cy="86.98" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="407.86" cy="99.89" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="408.22" cy="113.04" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="408.01" cy="126.16" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="408.08" cy="139.12" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="420.87" cy="87.08" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="421.18" cy="125.89" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="421.17" cy="139.01" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="420.87" cy="151.98" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="434.10" cy="74.09" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="433.85" cy="86.76" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="433.93" cy="100.04" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="434.00" cy="112.82" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="434.07" cy="126.12" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="433.93" cy="139.03" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="434.15" cy="152.16" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="446.79" cy="74.04" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="447.18" cy="99.92" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="447.09" cy="138.87" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="447.13" cy="151.91" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="459.87" cy="87.15" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="460.11" cy="100.11" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="459.97" cy="113.22" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="460.12" cy="126.20" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="460.13" cy="138.98" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="460.16" cy="152.22" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="472.81" cy="74.14" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="473.09" cy="87.22" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="472.96" cy="100.20" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="473.19" cy="112.94" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="473.22" cy="125.90" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="473.05" cy="139.15" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="472.78" cy="152.00" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="486.08" cy="74.08" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="485.79" cy="86.88" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="486.18" cy="99.80" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="485.86" cy="112.84" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="485.90" cy="126.07" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="486.17" cy="139.18" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="486.10" cy="151.88" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="499.24" cy="86.78" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="499.25" cy="100.08" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="499.07" cy="113.00" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="499.04" cy="126.20" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="498.88" cy="138.95" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="499.04" cy="151.89" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="512.02" cy="73.99" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="512.17" cy="87.19" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="511.78" cy="100.23" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="511.81" cy="113.07" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="512.01" cy="139.15" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="525.08" cy="86.90" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="524.84" cy="100.10" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="524.85" cy="113.21" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="524.77" cy="125.84" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="524.78" cy="139.24" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="524.75" cy="152.19" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="537.94" cy="73.87" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="538.08" cy="86.99" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="538.16" cy="100.18" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="538.23" cy="112.88" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="537.91" cy="126.10" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="538.16" cy="138.83" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="537.83" cy="152.21" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="550.98" cy="73.97" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="551.09" cy="86.88" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="550.87" cy="99.91" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="550.93" cy="112.88" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="550.86" cy="125.98" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="551.19" cy="138.89" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="551.04" cy="151.96" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="564.16" cy="74.22" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="563.81" cy="86.97" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="563.78" cy="99.88" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="564.21" cy="113.03" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="563.93" cy="126.08" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="563.96" cy="138.79" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="563.81" cy="152.25" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="577.21" cy="73.91" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="577.05" cy="86.76" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="577.25" cy="99.86" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="576.96" cy="112.79" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="577.09" cy="125.77" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="577.23" cy="139.13" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="577.04" cy="152.19" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="589.85" cy="74.12" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="590.15" cy="86.89" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="590.25" cy="99.80" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="589.79" cy="112.79" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="590.03" cy="125.76" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="590.11" cy="139.14" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="590.15" cy="152.03" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="602.78" cy="74.05" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="602.77" cy="87.16" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="603.06" cy="100.24" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="602.84" cy="113.13" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="603.02" cy="125.78" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="602.81" cy="139.14" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="602.80" cy="151.82" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="615.96" cy="74.20" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="616.20" cy="86.88" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="616.18" cy="100.16" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="616.23" cy="112.82" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="616.24" cy="126.17" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="616.13" cy="138.93" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="616.16" cy="152.11" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="628.97" cy="74.13" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="629.06" cy="86.80" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="629.24" cy="100.18" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="628.88" cy="112.96" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="628.94" cy="126.15" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="629.23" cy="138.97" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="628.89" cy="152.08" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="641.82" cy="74.16" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="642.11" cy="87.21" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="641.82" cy="100.19" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="642.02" cy="113.06" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="642.21" cy="126.00" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="642.01" cy="138.92" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="641.87" cy="151.87" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="654.93" cy="73.98" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="654.82" cy="87.12" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="654.89" cy="99.77" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="655.07" cy="113.04" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="654.80" cy="126.24" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="655.22" cy="138.78" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="655.00" cy="151.91" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="667.82" cy="74.06" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="668.24" cy="86.92" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="667.97" cy="99.87" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="667.91" cy="113.22" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="667.82" cy="125.89" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="667.77" cy="138.97" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="668.17" cy="151.93" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="680.91" cy="74.11" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="681.06" cy="86.83" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="680.79" cy="100.20" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="681.13" cy="113.24" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="681.11" cy="125.93" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="681.21" cy="139.00" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="680.79" cy="151.85" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="694.20" cy="74.16" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="693.94" cy="87.13" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="693.94" cy="100.19" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="694.15" cy="113.10" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="694.02" cy="126.16" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="694.06" cy="139.24" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="694.03" cy="152.24" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="706.93" cy="74.14" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="706.94" cy="86.85" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="706.98" cy="99.99" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="707.15" cy="125.82" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="707.20" cy="139.20" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="706.93" cy="151.86" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="719.82" cy="74.20" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<circle cx="719.96" cy="87.00" r="0.80" fill="#E5E7EB" opacity="0.23" />
+<line x1="56.27" y1="138.25" x2="69.85" y2="112.14" stroke="#D1D5DB" stroke-width="1" stroke-linecap="round" opacity="0.28" />
+<line x1="148.63" y1="73.68" x2="148.32" y2="99.56" stroke="#BFD7EA" stroke-width="1" stroke-linecap="round" opacity="0.54" />
+<line x1="148.63" y1="73.68" x2="173.56" y2="86.63" stroke="#BFD7EA" stroke-width="1" stroke-linecap="round" opacity="0.54" />
+<line x1="252.39" y1="100.59" x2="264.73" y2="74.58" stroke="#D1D5DB" stroke-width="1" stroke-linecap="round" opacity="0.28" />
+<line x1="329.61" y1="138.85" x2="330.01" y2="151.66" stroke="#D1D5DB" stroke-width="1" stroke-linecap="round" opacity="0.28" />
+<line x1="342.14" y1="87.77" x2="343.52" y2="112.92" stroke="#BFD7EA" stroke-width="1" stroke-linecap="round" opacity="0.54" />
+<line x1="342.14" y1="87.77" x2="368.50" y2="87.70" stroke="#BFD7EA" stroke-width="1" stroke-linecap="round" opacity="0.54" />
+<line x1="343.52" y1="112.92" x2="369.16" y2="113.22" stroke="#BFD7EA" stroke-width="1" stroke-linecap="round" opacity="0.54" />
+<line x1="355.58" y1="139.20" x2="369.16" y2="113.22" stroke="#D1D5DB" stroke-width="1" stroke-linecap="round" opacity="0.28" />
+<line x1="382.43" y1="87.23" x2="381.84" y2="99.79" stroke="#D1D5DB" stroke-width="1" stroke-linecap="round" opacity="0.28" />
+<line x1="394.41" y1="99.63" x2="394.69" y2="112.12" stroke="#BFD7EA" stroke-width="1" stroke-linecap="round" opacity="0.54" />
+<line x1="394.69" y1="112.12" x2="420.86" y2="112.83" stroke="#BFD7EA" stroke-width="1" stroke-linecap="round" opacity="0.54" />
+<line x1="421.39" y1="74.08" x2="446.59" y2="86.25" stroke="#D1D5DB" stroke-width="1" stroke-linecap="round" opacity="0.28" />
+<line x1="446.89" y1="112.39" x2="447.24" y2="125.54" stroke="#D1D5DB" stroke-width="1" stroke-linecap="round" opacity="0.28" />
+<line x1="512.70" y1="125.63" x2="512.38" y2="151.98" stroke="#BFD7EA" stroke-width="1" stroke-linecap="round" opacity="0.54" />
+<line x1="707.31" y1="112.30" x2="719.54" y2="100.44" stroke="#D1D5DB" stroke-width="1" stroke-linecap="round" opacity="0.28" />
+<circle cx="56.27" cy="138.25" r="2.80" fill="#6B7280" opacity="0.94"><title>2025-10-31: 7 contributions</title></circle>
+<circle cx="69.62" cy="100.34" r="1.50" fill="#CFCFD6" opacity="0.70"><title>2025-11-04: 1 contributions</title></circle>
+<circle cx="69.85" cy="112.14" r="2.80" fill="#6B7280" opacity="0.94"><title>2025-11-05: 6 contributions</title></circle>
+<circle cx="70.32" cy="139.34" r="1.50" fill="#CFCFD6" opacity="0.70"><title>2025-11-07: 2 contributions</title></circle>
+<circle cx="134.44" cy="86.42" r="1.50" fill="#CFCFD6" opacity="0.70"><title>2025-12-08: 1 contributions</title></circle>
+<circle cx="135.05" cy="99.75" r="1.50" fill="#CFCFD6" opacity="0.70"><title>2025-12-09: 2 contributions</title></circle>
+<circle cx="148.63" cy="73.68" r="6.20" fill="#DCEAF5" opacity="0.12"><animate attributeName="opacity" values="0.08;0.22;0.08" dur="6s" begin="0.44s" repeatCount="indefinite" /></circle>
+<circle cx="148.63" cy="73.68" r="3.60" fill="#BFD7EA" opacity="1"><title>2025-12-14: 15 contributions</title><animate attributeName="opacity" values="0.86;1;0.86" dur="4.5s" begin="0.44s" repeatCount="indefinite" /></circle>
+<circle cx="148.32" cy="99.56" r="2.80" fill="#6B7280" opacity="0.94"><title>2025-12-16: 6 contributions</title></circle>
+<circle cx="173.56" cy="86.63" r="2.10" fill="#9AA4B2" opacity="0.82"><title>2025-12-29: 4 contributions</title></circle>
+<circle cx="199.45" cy="125.74" r="1.50" fill="#CFCFD6" opacity="0.70"><title>2026-01-15: 1 contributions</title></circle>
+<circle cx="213.09" cy="113.28" r="2.80" fill="#6B7280" opacity="0.94"><title>2026-01-21: 6 contributions</title></circle>
+<circle cx="252.39" cy="100.59" r="2.10" fill="#9AA4B2" opacity="0.82"><title>2026-02-10: 3 contributions</title></circle>
+<circle cx="252.06" cy="126.28" r="1.50" fill="#CFCFD6" opacity="0.70"><title>2026-02-12: 1 contributions</title></circle>
+<circle cx="251.63" cy="138.74" r="1.50" fill="#CFCFD6" opacity="0.70"><title>2026-02-13: 1 contributions</title></circle>
+<circle cx="264.73" cy="74.58" r="2.10" fill="#9AA4B2" opacity="0.82"><title>2026-02-15: 3 contributions</title></circle>
+<circle cx="265.04" cy="87.58" r="1.50" fill="#CFCFD6" opacity="0.70"><title>2026-02-16: 1 contributions</title></circle>
+<circle cx="291.32" cy="87.71" r="6.20" fill="#DCEAF5" opacity="0.12"><animate attributeName="opacity" values="0.08;0.22;0.08" dur="6s" begin="1.74s" repeatCount="indefinite" /></circle>
+<circle cx="291.32" cy="87.71" r="3.60" fill="#BFD7EA" opacity="1"><title>2026-03-02: 8 contributions</title><animate attributeName="opacity" values="0.86;1;0.86" dur="4.5s" begin="1.74s" repeatCount="indefinite" /></circle>
+<circle cx="329.81" cy="87.15" r="1.50" fill="#CFCFD6" opacity="0.70"><title>2026-03-23: 1 contributions</title></circle>
+<circle cx="329.61" cy="138.85" r="2.10" fill="#9AA4B2" opacity="0.82"><title>2026-03-27: 3 contributions</title></circle>
+<circle cx="330.01" cy="151.66" r="2.10" fill="#9AA4B2" opacity="0.82"><title>2026-03-28: 3 contributions</title></circle>
+<circle cx="342.14" cy="87.77" r="6.20" fill="#DCEAF5" opacity="0.12"><animate attributeName="opacity" values="0.08;0.22;0.08" dur="6s" begin="0.81s" repeatCount="indefinite" /></circle>
+<circle cx="342.14" cy="87.77" r="3.60" fill="#BFD7EA" opacity="1"><title>2026-03-30: 8 contributions</title><animate attributeName="opacity" values="0.86;1;0.86" dur="4.5s" begin="0.81s" repeatCount="indefinite" /></circle>
+<circle cx="343.52" cy="112.92" r="6.20" fill="#DCEAF5" opacity="0.12"><animate attributeName="opacity" values="0.08;0.22;0.08" dur="6s" begin="2.65s" repeatCount="indefinite" /></circle>
+<circle cx="343.52" cy="112.92" r="3.60" fill="#BFD7EA" opacity="1"><title>2026-04-01: 8 contributions</title><animate attributeName="opacity" values="0.86;1;0.86" dur="4.5s" begin="2.65s" repeatCount="indefinite" /></circle>
+<circle cx="355.48" cy="100.30" r="1.50" fill="#CFCFD6" opacity="0.70"><title>2026-04-07: 1 contributions</title></circle>
+<circle cx="355.71" cy="125.67" r="1.50" fill="#CFCFD6" opacity="0.70"><title>2026-04-09: 1 contributions</title></circle>
+<circle cx="355.58" cy="139.20" r="2.10" fill="#9AA4B2" opacity="0.82"><title>2026-04-10: 5 contributions</title></circle>
+<circle cx="355.68" cy="152.27" r="1.50" fill="#CFCFD6" opacity="0.70"><title>2026-04-11: 2 contributions</title></circle>
+<circle cx="368.50" cy="87.70" r="2.10" fill="#9AA4B2" opacity="0.82"><title>2026-04-13: 5 contributions</title></circle>
+<circle cx="368.46" cy="99.41" r="1.50" fill="#CFCFD6" opacity="0.70"><title>2026-04-14: 1 contributions</title></circle>
+<circle cx="369.16" cy="113.22" r="2.80" fill="#6B7280" opacity="0.94"><title>2026-04-15: 7 contributions</title></circle>
+<circle cx="369.13" cy="126.04" r="1.50" fill="#CFCFD6" opacity="0.70"><title>2026-04-16: 2 contributions</title></circle>
+<circle cx="369.28" cy="139.58" r="1.50" fill="#CFCFD6" opacity="0.70"><title>2026-04-17: 2 contributions</title></circle>
+<circle cx="369.13" cy="152.15" r="1.50" fill="#CFCFD6" opacity="0.70"><title>2026-04-18: 1 contributions</title></circle>
+<circle cx="382.43" cy="87.23" r="2.10" fill="#9AA4B2" opacity="0.82"><title>2026-04-20: 4 contributions</title></circle>
+<circle cx="381.84" cy="99.79" r="2.10" fill="#9AA4B2" opacity="0.82"><title>2026-04-21: 3 contributions</title></circle>
+<circle cx="394.41" cy="99.63" r="2.10" fill="#9AA4B2" opacity="0.82"><title>2026-04-28: 5 contributions</title></circle>
+<circle cx="394.69" cy="112.12" r="6.20" fill="#DCEAF5" opacity="0.12"><animate attributeName="opacity" values="0.08;0.22;0.08" dur="6s" begin="0.91s" repeatCount="indefinite" /></circle>
+<circle cx="394.69" cy="112.12" r="3.60" fill="#BFD7EA" opacity="1"><title>2026-04-29: 27 contributions</title><animate attributeName="opacity" values="0.86;1;0.86" dur="4.5s" begin="0.91s" repeatCount="indefinite" /></circle>
+<circle cx="408.13" cy="152.41" r="6.20" fill="#DCEAF5" opacity="0.12"><animate attributeName="opacity" values="0.08;0.22;0.08" dur="6s" begin="1.05s" repeatCount="indefinite" /></circle>
+<circle cx="408.13" cy="152.41" r="3.60" fill="#BFD7EA" opacity="1"><title>2026-05-09: 31 contributions</title><animate attributeName="opacity" values="0.86;1;0.86" dur="4.5s" begin="1.05s" repeatCount="indefinite" /></circle>
+<circle cx="421.39" cy="74.08" r="2.10" fill="#9AA4B2" opacity="0.82"><title>2026-05-10: 3 contributions</title></circle>
+<circle cx="421.30" cy="99.44" r="1.50" fill="#CFCFD6" opacity="0.70"><title>2026-05-12: 1 contributions</title></circle>
+<circle cx="420.86" cy="112.83" r="2.10" fill="#9AA4B2" opacity="0.82"><title>2026-05-13: 4 contributions</title></circle>
+<circle cx="446.59" cy="86.25" r="2.10" fill="#9AA4B2" opacity="0.82"><title>2026-05-25: 5 contributions</title></circle>
+<circle cx="446.89" cy="112.39" r="2.10" fill="#9AA4B2" opacity="0.82"><title>2026-05-27: 4 contributions</title></circle>
+<circle cx="447.24" cy="125.54" r="2.10" fill="#9AA4B2" opacity="0.82"><title>2026-05-28: 4 contributions</title></circle>
+<circle cx="460.31" cy="74.46" r="1.50" fill="#CFCFD6" opacity="0.70"><title>2026-05-31: 1 contributions</title></circle>
+<circle cx="498.85" cy="74.51" r="2.10" fill="#9AA4B2" opacity="0.82"><title>2026-06-21: 3 contributions</title></circle>
+<circle cx="512.70" cy="125.63" r="6.20" fill="#DCEAF5" opacity="0.12"><animate attributeName="opacity" values="0.08;0.22;0.08" dur="6s" begin="3.44s" repeatCount="indefinite" /></circle>
+<circle cx="512.70" cy="125.63" r="3.60" fill="#BFD7EA" opacity="1"><title>2026-07-02: 10 contributions</title><animate attributeName="opacity" values="0.86;1;0.86" dur="4.5s" begin="3.44s" repeatCount="indefinite" /></circle>
+<circle cx="512.38" cy="151.98" r="6.20" fill="#DCEAF5" opacity="0.12"><animate attributeName="opacity" values="0.08;0.22;0.08" dur="6s" begin="0.86s" repeatCount="indefinite" /></circle>
+<circle cx="512.38" cy="151.98" r="3.60" fill="#BFD7EA" opacity="1"><title>2026-07-04: 15 contributions</title><animate attributeName="opacity" values="0.86;1;0.86" dur="4.5s" begin="0.86s" repeatCount="indefinite" /></circle>
+<circle cx="525.22" cy="74.22" r="1.50" fill="#CFCFD6" opacity="0.70"><title>2026-07-05: 2 contributions</title></circle>
+<circle cx="707.31" cy="112.30" r="2.10" fill="#9AA4B2" opacity="0.82"><title>2026-10-14: 4 contributions</title></circle>
+<circle cx="719.54" cy="100.44" r="2.80" fill="#6B7280" opacity="0.94"><title>2026-10-20: 7 contributions</title></circle>
+<text x="44" y="173" fill="#6B7280" font-family="Arial, Helvetica, sans-serif" font-size="10">251 contributions / last year</text>
+<text x="625" y="173" fill="#6B7280" font-family="Arial, Helvetica, sans-serif" font-size="10">Quiet</text>
+<circle cx="658" cy="169" r="1.40" fill="#CFCFD6" />
+<circle cx="674" cy="169" r="1.85" fill="#9AA4B2" />
+<circle cx="690" cy="169" r="2.30" fill="#6B7280" />
+<circle cx="706" cy="169" r="2.75" fill="#BFD7EA" />
+<text x="725" y="173" fill="#6B7280" font-family="Arial, Helvetica, sans-serif" font-size="10">Active</text>
 </svg>
