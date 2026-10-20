@@ -1,26 +1,13 @@
 
-<!--
-  JASPER JOHN ADRADA
-  Minimal GitHub Profile
-  Black / White / Monochrome
-
-  Required image:
-  assets/avatar.png
--->
-
 <div align="center">
 
-<img src="./assets/avatar.png" alt="Jasper Adrada" width="170" />
+# JASPER JOHN ADRADA
 
-# Jasper John Adrada
+`COMPUTER SCIENCE` / `SOFTWARE DEVELOPMENT`
 
-`COMPUTER SCIENCE` · `SOFTWARE DEVELOPMENT`
+Building practical software. Learning through experimentation.
 
-Building things, breaking things, and learning how to make them better.
-
-[GitHub](https://github.com/kysokyhuh) &nbsp; / &nbsp;
-[LinkedIn](https://www.linkedin.com/in/jasperadrada/) &nbsp; / &nbsp;
-[Email](mailto:kysokyhuh@gmail.com)
+[GitHub](https://github.com/kysokyhuh) · [LinkedIn](https://www.linkedin.com/in/jasperadrada/) · [Email](mailto:kysokyhuh@gmail.com)
 
 </div>
 
@@ -30,85 +17,80 @@ Building things, breaking things, and learning how to make them better.
 
 ### `01 / ABOUT`
 
-I'm a Computer Science student interested in building software that solves practical problems.
+I'm a Computer Science student interested in **software engineering, backend development, and intelligent systems**.
 
-My work explores **full-stack applications, backend development, and intelligent systems**, with an emphasis on clean architecture and thoughtful user experiences.
+I enjoy understanding how things work, breaking down complex problems, and turning ideas into functional applications.
 
-I'm especially interested in understanding how things work beneath the surface — from application logic and databases to the decisions that make software reliable and maintainable.
-
-Currently focused on becoming a better software engineer, one project at a time.
+My focus is on building software that is not only functional, but also **maintainable, reliable, and thoughtfully designed**.
 
 <br>
 
 ### `02 / SELECTED WORK`
 
-A selection of projects I've worked on, each exploring different aspects of software development.
+Projects exploring different aspects of software development.
 
-<br>
-
-**01 — [Research Ethics Review Portal](https://github.com/kysokyhuh/rerc-review-portal)**
+**01 — [Research Ethics Review Portal ↗](https://github.com/kysokyhuh/rerc-review-portal)**
 
 A full-stack application designed to support institutional research ethics review workflows.
 
-`FULL-STACK` · `DATABASES` · `ROLE-BASED ACCESS`
+`Full-Stack` `Database Design` `Role-Based Access`
 
-<br>
+---
 
-**02 — [Reflexion](https://github.com/kysokyhuh/Reflexion)**
+**02 — [Reflexion ↗](https://github.com/kysokyhuh/Reflexion)**
 
 An exploration of AI-assisted productivity, backend services, and structured application workflows.
 
-`PYTHON` · `FASTAPI` · `AI`
+`Python` `FastAPI` `AI`
+
+---
+
+**03 — [Little Red Riding Hood ↗](https://github.com/kysokyhuh/little-red-riding-hood)**
+
+A simulation exploring autonomous agent behavior, decision-making, and grid-based navigation.
+
+`C` `Algorithms` `Simulation`
+
+---
+
+**04 — [Arrows Express ↗](https://github.com/kysokyhuh/ArrowsExpress)**
+
+A console-based system exploring input validation, structured logic, and priority-based processing.
+
+`C` `System Design` `Logic`
 
 <br>
 
-**03 — [Little Red Riding Hood](https://github.com/kysokyhuh/little-red-riding-hood)**
+### `03 / TECHNICAL TOOLKIT`
 
-A simulation exploring agent behavior, decision-making, and grid-based navigation.
+A collection of technologies I've worked with.
 
-`C` · `ALGORITHMS` · `SIMULATION`
-
-<br>
-
-**04 — [Arrows Express](https://github.com/kysokyhuh/ArrowsExpress)**
-
-A console-based system exploring structured logic, input validation, and priority-based processing.
-
-`C` · `SYSTEM DESIGN` · `LOGIC`
-
-<br>
-
-### `03 / TOOLKIT`
-
-Technologies I've worked with throughout my projects and learning.
-
-| | Technologies |
+| Area | Technologies |
 | :--- | :--- |
 | **Languages** | Python, TypeScript, JavaScript, Java, C, C++ |
 | **Frontend** | React, Vite |
 | **Backend** | Node.js, Express, FastAPI |
 | **Databases** | PostgreSQL, SQLite, Prisma |
-| **Tools** | Git, GitHub, GitHub Actions, VS Code |
+| **Development** | Git, GitHub, GitHub Actions, VS Code |
 
 <br>
 
-### `04 / CURRENTLY`
+### `04 / CURRENTLY EXPLORING`
 
-Things I'm actively working on:
-
-- Building more complete and maintainable applications.
-- Strengthening my understanding of backend architecture and APIs.
-- Writing better documentation and project setup guides.
-- Exploring AI and its practical applications in software.
-- Learning through experimentation and real projects.
+- Software architecture and maintainable code.
+- Backend APIs and database-driven applications.
+- Artificial intelligence and practical ML applications.
+- Full-stack development and deployment workflows.
 
 <br>
 
-### `05 / PHILOSOPHY`
+### `05 / APPROACH`
 
 > Understand the problem. Build something useful. Keep improving.
 
-I believe good software isn't just about making something work. It's about understanding why it works, recognizing where it might fail, and continuously improving the way it's built.
+I approach software development with curiosity and a willingness to experiment.
+
+For me, building software means more than writing code. It means understanding the systems behind it, questioning assumptions, and finding better ways to solve problems.
 
 <br>
 
@@ -116,16 +98,12 @@ I believe good software isn't just about making something work. It's about under
 
 <div align="center">
 
-<sub>ALWAYS LEARNING · ALWAYS BUILDING</sub>
+<sub>DESIGNED TO LEARN. BUILT TO IMPROVE.</sub>
 
 <br><br>
 
-[GitHub](https://github.com/kysokyhuh) &nbsp;·&nbsp;
-[LinkedIn](https://www.linkedin.com/in/jasperadrada/) &nbsp;·&nbsp;
+[GitHub](https://github.com/kysokyhuh) &nbsp; / &nbsp;
+[LinkedIn](https://www.linkedin.com/in/jasperadrada/) &nbsp; / &nbsp;
 [Email](mailto:kysokyhuh@gmail.com)
-
-<br><br>
-
-<sub>© Jasper John Adrada</sub>
 
 </div>
