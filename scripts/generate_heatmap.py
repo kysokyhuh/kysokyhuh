@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate a constellation-style GitHub activity graphic."""
+"""Generate a cleaner constellation-style GitHub activity graphic."""
 
 from __future__ import annotations
 
@@ -19,33 +19,33 @@ API = f"https://github-contributions-api.jogruber.de/v4/{USER}?y=last"
 THEMES = {
     "light": {
         "text": "#6B7280",
-        "inactive": "#E5E7EB",
+        "subtitle": "#9CA3AF",
+        "faint": "#E5E7EB",
         "line": "#D1D5DB",
         "line_highlight": "#BFD7EA",
+        "glow": "#DCEAF5",
         "levels": {
             0: "#E5E7EB",
             1: "#CFCFD6",
-            2: "#A7AFBA",
+            2: "#9AA4B2",
             3: "#6B7280",
             4: "#BFD7EA",
         },
-        "twinkle_opacity": ("0.55", "1.0"),
-        "subtitle": "#9CA3AF",
     },
     "dark": {
         "text": "#D1D5DB",
-        "inactive": "#2A2F36",
+        "subtitle": "#9CA3AF",
+        "faint": "#2A2F36",
         "line": "#4B5563",
         "line_highlight": "#BFD7EA",
+        "glow": "#BFD7EA",
         "levels": {
             0: "#2A2F36",
-            1: "#525B67",
-            2: "#7C8794",
+            1: "#59616D",
+            2: "#8A95A3",
             3: "#D1D5DB",
             4: "#BFD7EA",
         },
-        "twinkle_opacity": ("0.45", "1.0"),
-        "subtitle": "#9CA3AF",
     },
 }
 
@@ -59,7 +59,7 @@ def stable_noise(key: str, low: float, high: float) -> float:
 def download() -> list[dict]:
     request = Request(
         API,
-        headers={"User-Agent": "constellation-github-profile/1.0"},
+        headers={"User-Agent": "constellation-github-profile/2.0"},
     )
 
     with urlopen(request, timeout=30) as response:
@@ -73,7 +73,7 @@ def download() -> list[dict]:
     return days
 
 
-def build_points(days: list[dict]):
+def build_daily(days: list[dict]):
     daily = {}
 
     for item in days:
@@ -84,25 +84,78 @@ def build_points(days: list[dict]):
 
     first = min(daily)
     last = max(daily)
-
     start = first - timedelta(days=(first.weekday() + 1) % 7)
 
     return daily, start, first, last
 
 
+def build_points(daily: dict, start: date, left: int, top: int, pitch_x: int, pitch_y: int):
+    points = []
+
+    for day in sorted(daily):
+        entry = daily[day]
+        count = entry["count"]
+        level = entry["level"]
+
+        number = (day - start).days
+        week = number // 7
+        row = number % 7
+
+        base_x = left + week * pitch_x
+        base_y = top + row * pitch_y
+
+        if level == 0:
+            jitter = 0.25
+            radius = 0.8
+            opacity = 0.23
+        elif level == 1:
+            jitter = 0.60
+            radius = 1.50
+            opacity = 0.70
+        elif level == 2:
+            jitter = 0.75
+            radius = 2.10
+            opacity = 0.82
+        elif level == 3:
+            jitter = 0.90
+            radius = 2.80
+            opacity = 0.94
+        else:
+            jitter = 1.00
+            radius = 3.60
+            opacity = 1.00
+
+        x = base_x + stable_noise(f"{day.isoformat()}-x", -jitter, jitter)
+        y = base_y + stable_noise(f"{day.isoformat()}-y", -jitter, jitter)
+
+        points.append(
+            {
+                "day": day,
+                "count": count,
+                "level": level,
+                "week": week,
+                "row": row,
+                "x": x,
+                "y": y,
+                "r": radius,
+                "opacity": opacity,
+            }
+        )
+
+    return points
+
+
 def make_connections(points: list[dict]) -> list[tuple[int, int]]:
-    if not points:
-        return []
+    """Create sparse, meaningful connections only between stronger activity days."""
+    anchors = [(i, p) for i, p in enumerate(points) if p["level"] >= 2]
+    edges: set[tuple[int, int]] = set()
 
-    index_of = {point["day"]: i for i, point in enumerate(points)}
-    edges = set()
+    degrees = {i: 0 for i, _ in anchors}
 
-    # Connect nearby points across adjacent weeks
-    for i, point in enumerate(points):
-        best_j = None
-        best_distance = 999999.0
+    for idx, (i, point) in enumerate(anchors):
+        candidates = []
 
-        for other in points[i + 1 :]:
+        for j, other in anchors[idx + 1 :]:
             day_diff = (other["day"] - point["day"]).days
             if day_diff > 18:
                 break
@@ -110,47 +163,49 @@ def make_connections(points: list[dict]) -> list[tuple[int, int]]:
             week_diff = abs(other["week"] - point["week"])
             row_diff = abs(other["row"] - point["row"])
 
-            if week_diff <= 2 and row_diff <= 3:
+            if week_diff <= 2 and row_diff <= 2:
                 distance = math.hypot(other["x"] - point["x"], other["y"] - point["y"])
-                if distance < best_distance:
-                    best_distance = distance
-                    best_j = index_of[other["day"]]
+                score = distance + row_diff * 3 + week_diff * 2
+                candidates.append((score, j))
 
-        if best_j is not None:
-            edge = tuple(sorted((i, best_j)))
+        candidates.sort(key=lambda item: item[0])
+
+        max_links = 2 if point["level"] == 4 else 1
+
+        for _, j in candidates:
+            if degrees[i] >= max_links:
+                break
+            if degrees[j] >= 2:
+                continue
+
+            edge = tuple(sorted((i, j)))
+            if edge in edges:
+                continue
+
             edges.add(edge)
-
-    # Add some vertical / in-week structure
-    by_week = {}
-    for i, point in enumerate(points):
-        by_week.setdefault(point["week"], []).append((i, point))
-
-    for _, items in by_week.items():
-        items.sort(key=lambda pair: pair[1]["row"])
-        for a, b in zip(items, items[1:]):
-            i, pa = a
-            j, pb = b
-            if abs(pa["row"] - pb["row"]) <= 2:
-                edge = tuple(sorted((i, j)))
-                edges.add(edge)
+            degrees[i] += 1
+            degrees[j] += 1
 
     return sorted(edges)
 
 
 def render(days: list[dict], theme: str) -> str:
     colors = THEMES[theme]
-    daily, start, first, last = build_points(days)
+    daily, start, first, last = build_daily(days)
 
     pitch_x = 13
     pitch_y = 13
-    left = 42
-    top = 40
-    weeks = ((last - start).days // 7) + 1
+    left = 44
+    top = 74
 
+    weeks = ((last - start).days // 7) + 1
     width = left + weeks * pitch_x + 18
     height = 185
 
-    total_contributions = sum(entry["count"] for entry in daily.values())
+    total_contributions = sum(item["count"] for item in daily.values())
+
+    points = build_points(daily, start, left, top, pitch_x, pitch_y)
+    edges = make_connections(points)
 
     pieces = [
         (
@@ -162,154 +217,118 @@ def render(days: list[dict], theme: str) -> str:
         f'<title>{total_contributions} GitHub contributions during the past year</title>',
     ]
 
+    # Header
     pieces.append(
-        f'<text x="{left}" y="18" fill="{colors["text"]}" '
+        f'<text x="{left}" y="20" fill="{colors["text"]}" '
         f'font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700">'
         f'CONSTELLATION / 365</text>'
     )
     pieces.append(
-        f'<text x="{left}" y="32" fill="{colors["subtitle"]}" '
+        f'<text x="{left}" y="34" fill="{colors["subtitle"]}" '
         f'font-family="Arial, Helvetica, sans-serif" font-size="10">'
-        f'A year of building, mapped in stars.</text>'
+        f'Active days become stars.</text>'
     )
 
     # Month labels
     months_seen = set()
     for day in sorted(daily):
-        marker = (day.year, day.month)
-        if marker not in months_seen:
-            months_seen.add(marker)
-            col = (day - start).days // 7
-            x = left + col * pitch_x
+        label = (day.year, day.month)
+        if label not in months_seen:
+            months_seen.add(label)
+            column = (day - start).days // 7
+            x = left + column * pitch_x
             if x >= left + 10:
                 pieces.append(
-                    f'<text x="{x}" y="52" fill="{colors["text"]}" '
+                    f'<text x="{x}" y="56" fill="{colors["text"]}" '
                     f'font-family="Arial, Helvetica, sans-serif" font-size="9">'
                     f'{escape(day.strftime("%b"))}</text>'
                 )
 
-    star_points = []
-    all_days = sorted(daily)
+    # Draw faint background stars first
+    for point in points:
+        if point["level"] != 0:
+            continue
 
-    for day in all_days:
-        entry = daily[day]
-        count = entry["count"]
-        level = entry["level"]
-
-        number = (day - start).days
-        week = number // 7
-        row = number % 7
-
-        base_x = left + week * pitch_x
-        base_y = top + 22 + row * pitch_y
-
-        jitter_x = stable_noise(f"{day.isoformat()}-x", -1.8, 1.8)
-        jitter_y = stable_noise(f"{day.isoformat()}-y", -1.8, 1.8)
-
-        x = base_x + jitter_x
-        y = base_y + jitter_y
-
-        if level == 0:
-            radius = 1.15
-        elif level == 1:
-            radius = 1.55
-        elif level == 2:
-            radius = 1.95
-        elif level == 3:
-            radius = 2.35
-        else:
-            radius = 2.75
-
-        star_points.append(
-            {
-                "day": day,
-                "count": count,
-                "level": level,
-                "week": week,
-                "row": row,
-                "x": x,
-                "y": y,
-                "r": radius,
-            }
+        pieces.append(
+            f'<circle cx="{point["x"]:.2f}" cy="{point["y"]:.2f}" '
+            f'r="{point["r"]:.2f}" fill="{colors["faint"]}" opacity="{point["opacity"]:.2f}" />'
         )
 
-    active_points = [point for point in star_points if point["level"] > 0]
-    edges = make_connections(active_points)
-
-    # Connection lines first
-    for edge_index, (i, j) in enumerate(edges):
-        a = active_points[i]
-        b = active_points[j]
+    # Draw sparse constellation lines
+    for index, (i, j) in enumerate(edges):
+        a = points[i]
+        b = points[j]
 
         highlight = a["level"] == 4 or b["level"] == 4
         stroke = colors["line_highlight"] if highlight else colors["line"]
-        opacity_low = "0.18" if not highlight else "0.32"
-        opacity_high = "0.34" if not highlight else "0.56"
-        begin = stable_noise(f"line-{edge_index}", 0.0, 4.0)
+        opacity = "0.54" if highlight else "0.28"
 
         pieces.append(
             f'<line x1="{a["x"]:.2f}" y1="{a["y"]:.2f}" '
             f'x2="{b["x"]:.2f}" y2="{b["y"]:.2f}" '
-            f'stroke="{stroke}" stroke-width="0.9" '
-            f'stroke-linecap="round" opacity="{opacity_low}">'
-            f'<animate attributeName="opacity" '
-            f'values="{opacity_low};{opacity_high};{opacity_low}" '
-            f'dur="8s" begin="{begin:.2f}s" repeatCount="indefinite" />'
-            f'</line>'
+            f'stroke="{stroke}" stroke-width="1" stroke-linecap="round" opacity="{opacity}" />'
         )
 
-    # Stars
-    low_opacity, high_opacity = colors["twinkle_opacity"]
+    # Draw active stars
+    for point in points:
+        if point["level"] == 0:
+            continue
 
-    for index, point in enumerate(star_points):
         color = colors["levels"][point["level"]]
-        begin = stable_noise(f"star-{point['day'].isoformat()}", 0.0, 6.0)
 
-        # soft glow for peak stars
+        # Peak days get a soft glow and subtle pulse
         if point["level"] == 4:
+            begin = stable_noise(f"peak-{point['day'].isoformat()}", 0.0, 4.0)
+
             pieces.append(
                 f'<circle cx="{point["x"]:.2f}" cy="{point["y"]:.2f}" '
-                f'r="{point["r"] + 2.3:.2f}" fill="{color}" opacity="0.10">'
-                f'<animate attributeName="opacity" values="0.06;0.18;0.06" '
+                f'r="{point["r"] + 2.6:.2f}" fill="{colors["glow"]}" opacity="0.12">'
+                f'<animate attributeName="opacity" values="0.08;0.22;0.08" '
                 f'dur="6s" begin="{begin:.2f}s" repeatCount="indefinite" />'
                 f'</circle>'
             )
 
-        pieces.append(
-            f'<circle cx="{point["x"]:.2f}" cy="{point["y"]:.2f}" '
-            f'r="{point["r"]:.2f}" fill="{color}" opacity="{low_opacity}">'
-            f'<title>{point["day"].isoformat()}: {point["count"]} contributions</title>'
-            f'<animate attributeName="opacity" values="{low_opacity};{high_opacity};{low_opacity}" '
-            f'dur="5.5s" begin="{begin:.2f}s" repeatCount="indefinite" />'
-            f'</circle>'
-        )
+            pieces.append(
+                f'<circle cx="{point["x"]:.2f}" cy="{point["y"]:.2f}" '
+                f'r="{point["r"]:.2f}" fill="{color}" opacity="1">'
+                f'<title>{point["day"].isoformat()}: {point["count"]} contributions</title>'
+                f'<animate attributeName="opacity" values="0.86;1;0.86" '
+                f'dur="4.5s" begin="{begin:.2f}s" repeatCount="indefinite" />'
+                f'</circle>'
+            )
+        else:
+            pieces.append(
+                f'<circle cx="{point["x"]:.2f}" cy="{point["y"]:.2f}" '
+                f'r="{point["r"]:.2f}" fill="{color}" opacity="{point["opacity"]:.2f}">'
+                f'<title>{point["day"].isoformat()}: {point["count"]} contributions</title>'
+                f'</circle>'
+            )
 
     # Footer
-    legend_y = height - 12
-    legend_x = left
-
+    footer_y = height - 12
     pieces.append(
-        f'<text x="{legend_x}" y="{legend_y}" fill="{colors["text"]}" '
+        f'<text x="{left}" y="{footer_y}" fill="{colors["text"]}" '
         f'font-family="Arial, Helvetica, sans-serif" font-size="10">'
         f'{total_contributions} contributions / last year</text>'
     )
 
-    quiet_x = width - 135
+    legend_x = width - 126
     pieces.append(
-        f'<text x="{quiet_x}" y="{legend_y}" fill="{colors["text"]}" '
+        f'<text x="{legend_x}" y="{footer_y}" fill="{colors["text"]}" '
         f'font-family="Arial, Helvetica, sans-serif" font-size="10">Quiet</text>'
     )
 
-    for idx, level in enumerate([0, 1, 2, 3, 4]):
-        cx = quiet_x + 34 + idx * 14
-        cy = legend_y - 4
-        r = 1.3 + idx * 0.3
+    legend_levels = [1, 2, 3, 4]
+    for idx, level in enumerate(legend_levels):
+        cx = legend_x + 33 + idx * 16
+        cy = footer_y - 4
+        r = 1.4 + idx * 0.45
         pieces.append(
             f'<circle cx="{cx}" cy="{cy}" r="{r:.2f}" fill="{colors["levels"][level]}" />'
         )
 
     pieces.append(
-        f'<text x="{quiet_x + 110}" y="{legend_y}" fill="{colors["text"]}" '
+        f'<text x="{legend_x + 100}" y="{footer_y}" fill="{colors["text"]}" '
         f'font-family="Arial, Helvetica, sans-serif" font-size="10">Active</text>'
     )
 
