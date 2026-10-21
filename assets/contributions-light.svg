@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 747 195" width="747" height="195" role="img" aria-label="Animated GitHub contribution constellation">
-<title>251 GitHub contributions mapped into a moving constellation</title>
+<title>260 GitHub contributions mapped into a moving constellation</title>
 <text x="38" y="20" fill="#626974" font-family="Arial,sans-serif" font-size="12" font-weight="700">CONSTELLATION / 365</text>
 <text x="38" y="37" fill="#87919D" font-family="Arial,sans-serif" font-size="10">A year of building, in motion.</text>
 <text x="116" y="59" fill="#87919D" font-family="Arial,sans-serif" font-size="9">Dec</text>
@@ -147,7 +147,7 @@
 <circle cx="272" cy="137" r="0.65" fill="#D1D5DB" opacity="0.22"/>
 <circle cx="272" cy="150" r="0.65" fill="#D1D5DB" opacity="0.22"/>
 <circle cx="285" cy="72" r="0.65" fill="#D1D5DB" opacity="0.22"/>
-<circle cx="285" cy="85" r="3.50" fill="#5D91B3"><title>2026-03-02: 8 contributions</title></circle>
+<circle cx="285" cy="85" r="2.37" fill="#6F7B89"><title>2026-03-02: 8 contributions</title></circle>
 <circle cx="285" cy="98" r="0.65" fill="#D1D5DB" opacity="0.22"/>
 <circle cx="285" cy="111" r="0.65" fill="#D1D5DB" opacity="0.22"/>
 <circle cx="285" cy="124" r="0.65" fill="#D1D5DB" opacity="0.22"/>
@@ -379,7 +379,8 @@
 <circle cx="701" cy="150" r="0.65" fill="#D1D5DB" opacity="0.22"/>
 <circle cx="714" cy="72" r="0.65" fill="#D1D5DB" opacity="0.22"/>
 <circle cx="714" cy="85" r="0.65" fill="#D1D5DB" opacity="0.22"/>
-<circle cx="714" cy="98" r="2.30" fill="#6F7B89"><title>2026-10-20: 7 contributions</title></circle>
+<circle cx="714" cy="98" r="3.50" fill="#5D91B3"><title>2026-10-20: 16 contributions</title></circle>
+<circle cx="714" cy="111" r="0.65" fill="#D1D5DB" opacity="0.22"/>
 <path d="M 51.0,137.0 L 142.0,72.0 L 207.0,111.0 L 246.0,98.0 L 285.0,85.0 L 337.0,85.0 L 402.0,150.0 L 441.0,85.0 L 506.0,150.0 L 714.0,98.0" fill="none" stroke="#8EA7BB" stroke-width="0.9" opacity="0.32" stroke-linejoin="round"/>
 <path d="M 51.0,137.0 L 142.0,72.0 L 207.0,111.0 L 246.0,98.0 L 285.0,85.0 L 337.0,85.0 L 402.0,150.0 L 441.0,85.0 L 506.0,150.0 L 714.0,98.0" fill="none" pathLength="100" stroke="#5D91B3" stroke-width="2.1" stroke-linecap="round" stroke-dasharray="5 95" opacity="0.9"><animate attributeName="stroke-dashoffset" from="0" to="-100" dur="18s" repeatCount="indefinite"/></path>
 <circle r="7" fill="#A9CEE5" opacity="0.15"><animateMotion path="M 51.0,137.0 L 142.0,72.0 L 207.0,111.0 L 246.0,98.0 L 285.0,85.0 L 337.0,85.0 L 402.0,150.0 L 441.0,85.0 L 506.0,150.0 L 714.0,98.0" dur="18s" calcMode="paced" repeatCount="indefinite"/></circle>
@@ -394,6 +395,6 @@
 <circle cx="441" cy="85" r="7" fill="#A9CEE5" opacity="0"><animate attributeName="opacity" values="0;0;0.85;0;0" keyTimes="0;0.6031;0.6151;0.6401;1" dur="18s" repeatCount="indefinite"/></circle>
 <circle cx="506" cy="150" r="7" fill="#A9CEE5" opacity="0"><animate attributeName="opacity" values="0;0;0.85;0;0" keyTimes="0;0.7186;0.7306;0.7556;1" dur="18s" repeatCount="indefinite"/></circle>
 <circle cx="714" cy="98" r="7" fill="#A9CEE5" opacity="0"><animate attributeName="opacity" values="0;0;0.85;0;0" keyTimes="0;0.9580;0.9700;0.9950;1" dur="18s" repeatCount="indefinite"/></circle>
-<text x="38" y="179" fill="#626974" font-family="Arial,sans-serif" font-size="10">251 contributions / last year</text>
+<text x="38" y="179" fill="#626974" font-family="Arial,sans-serif" font-size="10">260 contributions / last year</text>
 <text x="572" y="179" fill="#87919D" font-family="Arial,sans-serif" font-size="10">GLACIER BLUE / LIVE SIGNAL</text>
 </svg>
